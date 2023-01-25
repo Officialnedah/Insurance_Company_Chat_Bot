@@ -1,0 +1,290 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do i buy a life time plan",
+        "Life Plan need plan",
+        "Savings",
+        "How much can I get for retirement",
+        "Price for Life cover",
+        "Life cover",
+        "Life savings",
+        "Retirement",
+        "Life plan"
+      ],
+      "dialogId": "new_topic_b4a85366d02e4d71803df62179340772",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_b4a85366d02e4d71803df62179340772",
+      "displayName": "Life Time Needs Plan",
+      "createdTime": "2022-11-28T13:24:31.0898111Z",
+      "updatedTime": "2022-11-28T14:05:53.1406362Z",
+      "createdUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "782a02c9-be7e-4c0f-b2ef-c9769b0dc22c",
+      "displayName": "Yes"
+    },
+    {
+      "id": "23f2bf48-6a42-474f-a44c-f7c1aff2f0c8",
+      "displayName": "No"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "06d08384-6db8-4b92-8515-dd32c0142cca",
+      "messageNodes": [
+        {
+          "botMessageId": "7607eb7c-4195-4bee-94a2-43682b367643",
+          "nodeType": "BotMessageNode",
+          "id": "06d08384-6db8-4b92-8515-dd32c0142cca",
+          "defaultTargetNodeId": "3379b307-9138-4bed-a1fb-128b00549b68"
+        },
+        {
+          "botMessageId": "9a25a5e3-5b84-4717-8c02-d6e4345183ec",
+          "nodeType": "BotMessageNode",
+          "id": "3379b307-9138-4bed-a1fb-128b00549b68",
+          "defaultTargetNodeId": "69fb3325-8201-4575-8c70-de7dc9da01a2"
+        },
+        {
+          "botMessageId": "599ee3eb-4046-40c5-b5ee-867ae852d2c1",
+          "nodeType": "BotMessageNode",
+          "id": "f953af39-0130-41d7-a995-156a618b70de",
+          "defaultTargetNodeId": "5c05342d-495f-40ef-82f3-35ad7881a695"
+        },
+        {
+          "botMessageId": "68dcbc5b-56c2-497e-93c6-75ba2a44c69f",
+          "nodeType": "BotMessageNode",
+          "id": "16e84b43-3dec-4cb1-9df6-7dcac4445361",
+          "defaultTargetNodeId": "cc208e59-d9d1-4602-9f15-d0c4637d91c1"
+        },
+        {
+          "botMessageId": "285142d5-eae2-4ab9-9ebb-38a18cee2c71",
+          "nodeType": "BotMessageNode",
+          "id": "cc208e59-d9d1-4602-9f15-d0c4637d91c1",
+          "defaultTargetNodeId": "9b96f4ce-81c5-4002-a525-abf4b894535b"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_db1f76b081dc43389df9dd2df7518737_confirmedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "9b96f4ce-81c5-4002-a525-abf4b894535b"
+        },
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_954135cafcd647eaae5999ad91fc08cf_talktoagent",
+          "nodeType": "DialogChangeNode",
+          "id": "c9cfab86-50f0-4442-833e-43b38b70dcf9"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "c12c0ae6-8e8f-40a3-b26d-a0e6088e9cad",
+          "nodeType": "QuestionNode",
+          "id": "69fb3325-8201-4575-8c70-de7dc9da01a2",
+          "routes": [
+            {
+              "expression": "@equals(parameters('c12c0ae6-8e8f-40a3-b26d-a0e6088e9cad'), '782a02c9-be7e-4c0f-b2ef-c9769b0dc22c')",
+              "targetNodeId": "f953af39-0130-41d7-a995-156a618b70de"
+            },
+            {
+              "expression": "@equals(parameters('c12c0ae6-8e8f-40a3-b26d-a0e6088e9cad'), '23f2bf48-6a42-474f-a44c-f7c1aff2f0c8')",
+              "targetNodeId": "c9cfab86-50f0-4442-833e-43b38b70dcf9"
+            }
+          ],
+          "defaultTargetNodeId": "69fb3325-8201-4575-8c70-de7dc9da01a2"
+        },
+        {
+          "contextVariableId": "8c94001b-d6f3-46f6-8423-8c1780838e57",
+          "nodeType": "QuestionNode",
+          "id": "5c05342d-495f-40ef-82f3-35ad7881a695",
+          "defaultTargetNodeId": "102d572c-004d-402a-8068-8120262b126c"
+        },
+        {
+          "contextVariableId": "21453168-80c7-4009-a455-7d5de2c5bd58",
+          "nodeType": "QuestionNode",
+          "id": "102d572c-004d-402a-8068-8120262b126c",
+          "defaultTargetNodeId": "16e84b43-3dec-4cb1-9df6-7dcac4445361"
+        }
+      ],
+      "id": "new_topic_b4a85366d02e4d71803df62179340772",
+      "displayName": "Untitled",
+      "createdTime": "2022-11-28T13:24:31.0898111Z",
+      "updatedTime": "2022-11-28T14:05:53.1406362Z",
+      "createdUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Would you like to purchase our Life time needs plan?"
+        }
+      },
+      "id": "4c566169-7608-425c-9187-dff027d8decb",
+      "createdTime": "2022-11-28T13:34:52.53Z",
+      "updatedTime": "2022-11-28T13:34:52.53Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Full Names?"
+        }
+      },
+      "id": "108de4c5-c453-42bf-b9d6-1160ca0f68dc",
+      "createdTime": "2022-11-28T13:39:31.307Z",
+      "updatedTime": "2022-11-28T13:39:31.307Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Email address?"
+        }
+      },
+      "id": "0848d914-8cdc-45f7-853e-ebd2386f1b23",
+      "createdTime": "2022-11-28T13:43:49.935Z",
+      "updatedTime": "2022-11-28T13:43:49.935Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Invest in yours and your family's future.\n\nWith our Lifetime Needs Plan product, we help you save for your retirement, or any other savings goal you may have."
+        }
+      },
+      "id": "7607eb7c-4195-4bee-94a2-43682b367643",
+      "createdTime": "2022-11-28T13:21:13.33Z",
+      "updatedTime": "2022-11-28T13:21:13.33Z"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "The Product benefits of our Life time needs plan include;\n\n1.  All Online, And Quoted In Under 8 Min.\n2.  Priced From Just NGN5,000.00 Per Month\n3.  Protection Against Inflation\n4.  Payout Amount Is Double In The Event Of Accidental Death\n5.  Partial Withdrawal And Surrender Benefits"
+        }
+      },
+      "id": "9a25a5e3-5b84-4717-8c02-d6e4345183ec",
+      "createdTime": "2022-11-28T13:25:34.889Z",
+      "updatedTime": "2022-11-28T13:25:34.889Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Kindly provide your details."
+        }
+      },
+      "id": "599ee3eb-4046-40c5-b5ee-867ae852d2c1",
+      "createdTime": "2022-11-28T13:39:00.643Z",
+      "updatedTime": "2022-11-28T13:39:00.643Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Thank you for your response."
+        }
+      },
+      "id": "68dcbc5b-56c2-497e-93c6-75ba2a44c69f",
+      "createdTime": "2022-11-28T13:49:30.38Z",
+      "updatedTime": "2022-11-28T13:49:30.38Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "To get a quote on the Life time needs Plan, Kindly visit https://newlife.myenterprisegroup.io/application/quotation  \n\nYou can also call us on 080423532 or visit our nearest branch near you.\n\nThank you."
+        }
+      },
+      "id": "285142d5-eae2-4ab9-9ebb-38a18cee2c71",
+      "createdTime": "2022-11-28T13:49:46.406Z",
+      "updatedTime": "2022-11-28T13:49:46.406Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "782a02c9-be7e-4c0f-b2ef-c9769b0dc22c",
+        "23f2bf48-6a42-474f-a44c-f7c1aff2f0c8"
+      ],
+      "messages": {
+        "GetValue": [
+          "4c566169-7608-425c-9187-dff027d8decb"
+        ]
+      },
+      "isGlobal": false,
+      "id": "c12c0ae6-8e8f-40a3-b26d-a0e6088e9cad",
+      "displayName": "Var",
+      "createdTime": "2022-11-28T13:34:52.53Z",
+      "updatedTime": "2022-11-28T14:05:53.1406362Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    },
+    {
+      "systemType": "PersonName",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "108de4c5-c453-42bf-b9d6-1160ca0f68dc"
+        ]
+      },
+      "isGlobal": false,
+      "id": "8c94001b-d6f3-46f6-8423-8c1780838e57",
+      "displayName": "botName",
+      "createdTime": "2022-11-28T13:39:31.307Z",
+      "updatedTime": "2022-11-28T14:05:53.1406362Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    },
+    {
+      "systemType": "Email",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "0848d914-8cdc-45f7-853e-ebd2386f1b23"
+        ]
+      },
+      "isGlobal": false,
+      "id": "21453168-80c7-4009-a455-7d5de2c5bd58",
+      "displayName": "Vare1",
+      "createdTime": "2022-11-28T13:43:49.935Z",
+      "updatedTime": "2022-11-28T14:05:53.1406362Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ]
+}

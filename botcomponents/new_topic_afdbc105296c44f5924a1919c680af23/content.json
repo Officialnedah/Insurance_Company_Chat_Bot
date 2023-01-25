@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I change the beneficiary of my policy?"
+      ],
+      "dialogId": "new_topic_afdbc105296c44f5924a1919c680af23",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_afdbc105296c44f5924a1919c680af23",
+      "displayName": "How do I change the beneficiary of my policy?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:30:12.9287968Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "5af7328e-fe31-4bb5-a5a5-c39fd8f0fc27",
+      "messageNodes": [
+        {
+          "botMessageId": "0cb73e59-02fc-4d2f-9a9a-692c88e1c805",
+          "nodeType": "BotMessageNode",
+          "id": "5af7328e-fe31-4bb5-a5a5-c39fd8f0fc27",
+          "defaultTargetNodeId": "7354da6f-b860-4014-8814-92b5bd498bdc"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "7354da6f-b860-4014-8814-92b5bd498bdc"
+        }
+      ],
+      "id": "new_topic_afdbc105296c44f5924a1919c680af23",
+      "displayName": "How do I change the beneficiary of my policy?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Fill EL request form or submit a letter to change beneficiary, via email/walk-in.\r\n- Client must indicate the name of the beneficiary he wishes to replace, as well as the name and date of birth of the new beneficiary and the relationship of the new beneficiary to the client.\r\n\r\n\r\n*NB. Officer must explain the implications of this change to the Policyholder. There may be a need for the Policyholder to write out the names of all his/her intended beneficiaries each time this request is made.*"
+        }
+      },
+      "id": "0cb73e59-02fc-4d2f-9a9a-692c88e1c805"
+    }
+  ]
+}

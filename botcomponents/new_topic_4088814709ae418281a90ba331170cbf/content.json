@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "My card is blocked. What can I do?"
+      ],
+      "dialogId": "new_topic_4088814709ae418281a90ba331170cbf",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_4088814709ae418281a90ba331170cbf",
+      "displayName": "My card is blocked. What can I do?",
+      "description": "https://www.fidelitybank.ng/contact-us/frequently-asked-questions/",
+      "createdTime": "2022-08-31T12:22:20.7964871Z",
+      "updatedTime": "2022-11-28T12:32:59.7703866Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "4687de78-3e69-42b7-bb11-5802c7c3375c",
+      "messageNodes": [
+        {
+          "botMessageId": "24acd3b7-e435-4486-b03e-5a8ed58c121b",
+          "nodeType": "BotMessageNode",
+          "id": "4687de78-3e69-42b7-bb11-5802c7c3375c",
+          "defaultTargetNodeId": "7bab7e77-12cf-45f7-9194-edf92c0ec588"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "7bab7e77-12cf-45f7-9194-edf92c0ec588"
+        }
+      ],
+      "id": "new_topic_4088814709ae418281a90ba331170cbf",
+      "displayName": "My card is blocked. What can I do?",
+      "createdTime": "2022-08-31T12:21:32.0685188Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Customer should request for a PIN reset in the nearest Fidelity branch"
+        }
+      },
+      "id": "24acd3b7-e435-4486-b03e-5a8ed58c121b"
+    }
+  ]
+}

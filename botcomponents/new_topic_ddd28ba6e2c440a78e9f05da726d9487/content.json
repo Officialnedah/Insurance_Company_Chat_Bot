@@ -1,0 +1,48 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "MasterCard"
+      ],
+      "dialogId": "new_topic_ddd28ba6e2c440a78e9f05da726d9487",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_ddd28ba6e2c440a78e9f05da726d9487",
+      "displayName": "MasterCard",
+      "createdTime": "2022-09-01T09:13:49.3306966Z",
+      "updatedTime": "2022-11-28T12:53:25.2150575Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "e976ff38-422c-4d6c-992f-7f2378d0f52c",
+      "messageNodes": [
+        {
+          "botMessageId": "805e5db7-6fdc-4ae6-85d6-9c273bca8c60",
+          "nodeType": "BotMessageNode",
+          "id": "e976ff38-422c-4d6c-992f-7f2378d0f52c"
+        }
+      ],
+      "id": "new_topic_ddd28ba6e2c440a78e9f05da726d9487",
+      "displayName": "Untitled",
+      "createdTime": "2022-09-01T09:13:49.3306966Z",
+      "updatedTime": "2022-09-01T09:13:49.3306966Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "What type of enquiry will you like to make on your master card"
+        }
+      },
+      "id": "805e5db7-6fdc-4ae6-85d6-9c273bca8c60",
+      "createdTime": "2022-09-01T09:11:15.355Z",
+      "updatedTime": "2022-09-01T09:11:15.355Z"
+    }
+  ]
+}

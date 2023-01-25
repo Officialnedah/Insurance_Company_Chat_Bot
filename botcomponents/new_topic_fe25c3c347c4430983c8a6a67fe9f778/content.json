@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "Can I apply for the Mortgage Instalment Loan through your Internet Banking Service? - Loan - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_fe25c3c347c4430983c8a6a67fe9f778",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_fe25c3c347c4430983c8a6a67fe9f778",
+      "displayName": "Can I apply for the Mortgage Instalment Loan through your Internet Banking Service? - Loan - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T13:02:11.8118941Z",
+      "updatedTime": "2022-11-28T12:54:46.6552736Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "22cc0fc0-aa28-4e39-9277-704a458674f6",
+      "messageNodes": [
+        {
+          "botMessageId": "af12cec9-e841-4a4d-9570-2361b4030f75",
+          "nodeType": "BotMessageNode",
+          "id": "22cc0fc0-aa28-4e39-9277-704a458674f6",
+          "defaultTargetNodeId": "098f0721-f371-4b80-a507-09248f00619c"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "098f0721-f371-4b80-a507-09248f00619c"
+        }
+      ],
+      "id": "new_topic_fe25c3c347c4430983c8a6a67fe9f778",
+      "displayName": "Can I apply for the Mortgage Instalment Loan through your Internet Banking Service? - Loan - Personal Internet Banking",
+      "createdTime": "2022-08-31T13:01:35.782563Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Can I apply for the Mortgage Instalment Loan through your Internet Banking Service?**\r\n  \r\n\r\nAns: Yes, you have to fill out the Mortgage Instalment Loan Application Form in English under the Application Section of Mortgage Instalment Loan and submit the application form through our Internet Banking Service. Our staff will notify you of the application result as soon as possible."
+        }
+      },
+      "id": "af12cec9-e841-4a4d-9570-2361b4030f75"
+    }
+  ]
+}

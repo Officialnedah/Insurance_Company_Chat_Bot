@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I modify my date of birth?"
+      ],
+      "dialogId": "new_topic_a2b7376294cd4a68b59800b80063de08",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_a2b7376294cd4a68b59800b80063de08",
+      "displayName": "How do I modify my date of birth?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:29:52.6160553Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "a9019eae-6e85-4115-b830-0c286c3836fa",
+      "messageNodes": [
+        {
+          "botMessageId": "e81c6e39-cefc-455b-ac1e-9db0fd752b29",
+          "nodeType": "BotMessageNode",
+          "id": "a9019eae-6e85-4115-b830-0c286c3836fa",
+          "defaultTargetNodeId": "7c98289a-3e7f-45a4-b023-dc56e0a544c7"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "7c98289a-3e7f-45a4-b023-dc56e0a544c7"
+        }
+      ],
+      "id": "new_topic_a2b7376294cd4a68b59800b80063de08",
+      "displayName": "How do I modify my date of birth?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Fill EL request form or submit a letter to change date of birth via email/walk-in.\r\n- Birth certificate\r\n- Client must indicate name of life whose date of birth is to be changed, his/her role on the policy and the new date of birth of that life.\r\n- Proof of ID of the life is required\r\n\r\n\r\n*NB. Officer must ensure that the age to be changed falls within the policy's age limits.*"
+        }
+      },
+      "id": "e81c6e39-cefc-455b-ac1e-9db0fd752b29"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "bills online? - Payment"
+      ],
+      "dialogId": "new_topic_cf204af5b9464188b18aa77f8ad9a09d",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_cf204af5b9464188b18aa77f8ad9a09d",
+      "displayName": "bills online? - Payment",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T13:02:11.8118941Z",
+      "updatedTime": "2022-11-28T12:55:11.8748639Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "6b01d47e-847c-4768-867b-c7bbab3395ca",
+      "messageNodes": [
+        {
+          "botMessageId": "cfcab25b-8204-4b16-9cff-2f27c6c4e685",
+          "nodeType": "BotMessageNode",
+          "id": "6b01d47e-847c-4768-867b-c7bbab3395ca",
+          "defaultTargetNodeId": "77acda0e-c048-4c2e-82a6-5cff83181a93"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "77acda0e-c048-4c2e-82a6-5cff83181a93"
+        }
+      ],
+      "id": "new_topic_cf204af5b9464188b18aa77f8ad9a09d",
+      "displayName": "bills online? - Payment",
+      "createdTime": "2022-08-31T13:01:35.782563Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**bills online?**\r\n  \r\n\r\nAns:Pre-registration of your bill account with our Bank is not necessary."
+        }
+      },
+      "id": "cfcab25b-8204-4b16-9cff-2f27c6c4e685"
+    }
+  ]
+}

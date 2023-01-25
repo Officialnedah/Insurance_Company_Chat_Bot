@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "target market for loan",
+        "What is the target market for the Fidelity Fast & Easy Loan"
+      ],
+      "dialogId": "new_topic_e65bca70513f4800bd02a54868b2cb4e",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_e65bca70513f4800bd02a54868b2cb4e",
+      "displayName": "Fidelity Loan market",
+      "createdTime": "2022-08-31T14:13:16.874179Z",
+      "updatedTime": "2022-11-28T12:54:39.6202506Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "decf30d9-6b0d-4cec-aaad-c2e7fc37c9ce",
+      "messageNodes": [
+        {
+          "botMessageId": "82beb6fd-41d6-4359-8a18-057853a5e94a",
+          "nodeType": "BotMessageNode",
+          "id": "decf30d9-6b0d-4cec-aaad-c2e7fc37c9ce"
+        }
+      ],
+      "id": "new_topic_e65bca70513f4800bd02a54868b2cb4e",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T14:13:16.874179Z",
+      "updatedTime": "2022-08-31T14:14:19.9075954Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**What is the target market for the Fidelity Fast & Easy Loan?** \n\nAnynody anywhere who has cash in Cedis or foreign currency, be they Fidelity bank customers or non- Customers, but do not want to spend their savings or convert their foreign currency to cedis."
+        }
+      },
+      "id": "82beb6fd-41d6-4359-8a18-057853a5e94a",
+      "createdTime": "2022-08-31T14:12:13.402Z",
+      "updatedTime": "2022-08-31T14:12:13.402Z"
+    }
+  ]
+}

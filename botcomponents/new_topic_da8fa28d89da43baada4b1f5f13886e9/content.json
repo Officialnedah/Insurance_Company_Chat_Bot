@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "e-Statement - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_da8fa28d89da43baada4b1f5f13886e9",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_da8fa28d89da43baada4b1f5f13886e9",
+      "displayName": "e-Statement - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T13:01:05.3070065Z",
+      "updatedTime": "2022-11-28T13:27:55.1213792Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "263d6cb1-fe82-4e24-9872-0d4438c2cb8a",
+      "messageNodes": [
+        {
+          "botMessageId": "49f37a68-9c22-4854-9d47-1bc2b95b5da5",
+          "nodeType": "BotMessageNode",
+          "id": "263d6cb1-fe82-4e24-9872-0d4438c2cb8a",
+          "defaultTargetNodeId": "29fa4460-7b43-41f2-994d-83ed3467c753"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "29fa4460-7b43-41f2-994d-83ed3467c753"
+        }
+      ],
+      "id": "new_topic_da8fa28d89da43baada4b1f5f13886e9",
+      "displayName": "e-Statement - Personal Internet Banking",
+      "createdTime": "2022-08-31T13:00:38.9938216Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**e-Statement**\r\n  \r\n\r\nFX & Precious Metal Trading Account are eligible for the e-Statement services."
+        }
+      },
+      "id": "49f37a68-9c22-4854-9d47-1bc2b95b5da5"
+    }
+  ]
+}

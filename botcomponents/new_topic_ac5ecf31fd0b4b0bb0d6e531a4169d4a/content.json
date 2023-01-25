@@ -1,0 +1,294 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "Income plan",
+        "Income",
+        "Family income",
+        "Income to family in event of early death",
+        "Early death income to family",
+        "Income for family",
+        "Disability pay",
+        "Permanent disability pay",
+        "Income when I cant work",
+        "Income plan",
+        "Protect my income",
+        "Protect my money",
+        "Income protection"
+      ],
+      "dialogId": "new_topic_ac5ecf31fd0b4b0bb0d6e531a4169d4a",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_ac5ecf31fd0b4b0bb0d6e531a4169d4a",
+      "displayName": "Income protection plan",
+      "createdTime": "2022-11-28T14:22:57.1336268Z",
+      "updatedTime": "2022-11-28T15:14:18.9563657Z",
+      "createdUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "fa1e058e-5c25-41aa-a2dc-4f285c11e386",
+      "displayName": "Yes"
+    },
+    {
+      "id": "6af97e21-f6bf-4d2a-a2a3-eb10ccfddae3",
+      "displayName": "No"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "edb1d521-97cc-4d12-8089-86274b182f7d",
+      "messageNodes": [
+        {
+          "botMessageId": "b82169c0-57b4-4808-a174-febe10d627c6",
+          "nodeType": "BotMessageNode",
+          "id": "edb1d521-97cc-4d12-8089-86274b182f7d",
+          "defaultTargetNodeId": "2f363106-e1c1-41b4-860d-97c198e7559b"
+        },
+        {
+          "botMessageId": "7ecd14fb-478b-448e-9a43-618b571459da",
+          "nodeType": "BotMessageNode",
+          "id": "2f363106-e1c1-41b4-860d-97c198e7559b",
+          "defaultTargetNodeId": "ef3fe257-7a11-4e87-ae47-6ef9e2c570ba"
+        },
+        {
+          "botMessageId": "7e039ecb-8869-412d-a2c3-af1a5e49b01d",
+          "nodeType": "BotMessageNode",
+          "id": "4df91ca1-a2dd-4aaa-b12b-527bbaabbd91",
+          "defaultTargetNodeId": "b0cb4b6b-138a-4764-8edb-448e6dbdf7e9"
+        },
+        {
+          "botMessageId": "2e6ce341-b5b6-4a42-ac95-336ca1cd2bfd",
+          "nodeType": "BotMessageNode",
+          "id": "d6213437-d27d-450c-b353-d47481750475",
+          "defaultTargetNodeId": "547cea66-54ab-40e9-a179-80171fe04ee7"
+        },
+        {
+          "botMessageId": "640ad006-b3a3-4a3c-9a82-ef16af0a3962",
+          "nodeType": "BotMessageNode",
+          "id": "547cea66-54ab-40e9-a179-80171fe04ee7",
+          "defaultTargetNodeId": "99422056-0ee0-4a33-bbbe-26cac1cc412f"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_954135cafcd647eaae5999ad91fc08cf_talktoagent",
+          "nodeType": "DialogChangeNode",
+          "id": "ea8c4d92-0a9f-4c0e-8945-1510e70f118e"
+        },
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_db1f76b081dc43389df9dd2df7518737_confirmedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "99422056-0ee0-4a33-bbbe-26cac1cc412f"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "01a4e001-440b-41aa-ba07-3150da342744",
+          "nodeType": "QuestionNode",
+          "id": "ef3fe257-7a11-4e87-ae47-6ef9e2c570ba",
+          "routes": [
+            {
+              "expression": "@equals(parameters('01a4e001-440b-41aa-ba07-3150da342744'), 'fa1e058e-5c25-41aa-a2dc-4f285c11e386')",
+              "targetNodeId": "4df91ca1-a2dd-4aaa-b12b-527bbaabbd91"
+            },
+            {
+              "expression": "@equals(parameters('01a4e001-440b-41aa-ba07-3150da342744'), '6af97e21-f6bf-4d2a-a2a3-eb10ccfddae3')",
+              "targetNodeId": "ea8c4d92-0a9f-4c0e-8945-1510e70f118e"
+            }
+          ],
+          "defaultTargetNodeId": "ef3fe257-7a11-4e87-ae47-6ef9e2c570ba"
+        },
+        {
+          "contextVariableId": "576f4217-ded4-45e4-9bcb-beb9729af3bd",
+          "nodeType": "QuestionNode",
+          "id": "b0cb4b6b-138a-4764-8edb-448e6dbdf7e9",
+          "defaultTargetNodeId": "e23aa28c-f0bb-4a0b-b980-d5b7e6e8bae9"
+        },
+        {
+          "contextVariableId": "bee50b7e-e21b-45ca-9ffa-4c13791ab765",
+          "nodeType": "QuestionNode",
+          "id": "e23aa28c-f0bb-4a0b-b980-d5b7e6e8bae9",
+          "defaultTargetNodeId": "d6213437-d27d-450c-b353-d47481750475"
+        }
+      ],
+      "id": "new_topic_ac5ecf31fd0b4b0bb0d6e531a4169d4a",
+      "displayName": "Untitled",
+      "createdTime": "2022-11-28T14:22:57.1336268Z",
+      "updatedTime": "2022-11-28T15:14:18.9563657Z",
+      "createdUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Would you like to purchase the income protection plan?"
+        }
+      },
+      "id": "7026fd1b-064a-4902-a94f-365261d787af",
+      "createdTime": "2022-11-28T14:18:14.48Z",
+      "updatedTime": "2022-11-28T14:18:14.48Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Full names?"
+        }
+      },
+      "id": "7153332a-2288-4ed4-9c4a-3c548bd9da6b",
+      "createdTime": "2022-11-28T14:20:34.861Z",
+      "updatedTime": "2022-11-28T14:20:34.861Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Email address?"
+        }
+      },
+      "id": "e51a625e-5de9-42b6-ab19-ac66282ae8da",
+      "createdTime": "2022-11-28T14:21:45.553Z",
+      "updatedTime": "2022-11-28T14:21:45.553Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Our Income Protection Plan, this provides a lump-sum, payable on death, critical illness or permanent disability during the term of the policy.\n\nIf you are looking to protect yourself and your loved ones in the unfortunate event that you are unable to earn an income because of death, disability or illness this is the plan for you."
+        }
+      },
+      "id": "b82169c0-57b4-4808-a174-febe10d627c6",
+      "createdTime": "2022-11-28T14:01:53.221Z",
+      "updatedTime": "2022-11-28T14:01:53.221Z"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "The benefits of our Income protection plan include;\n\n1.  Joint Life Cover; Include Your Spouse!\n2.  10% Cash Back Every Two Years\n3.  One Month Premium Holiday Annually\n4.  Innovative “No Lapse” Feature\n5.  Optional Savings Account"
+        }
+      },
+      "id": "7ecd14fb-478b-448e-9a43-618b571459da",
+      "createdTime": "2022-11-28T14:08:50.736Z",
+      "updatedTime": "2022-11-28T14:08:50.736Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Kindly provide your details."
+        }
+      },
+      "id": "7e039ecb-8869-412d-a2c3-af1a5e49b01d",
+      "createdTime": "2022-11-28T14:20:04.956Z",
+      "updatedTime": "2022-11-28T14:20:04.956Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Thank you for response."
+        }
+      },
+      "id": "2e6ce341-b5b6-4a42-ac95-336ca1cd2bfd",
+      "createdTime": "2022-11-28T14:22:24.252Z",
+      "updatedTime": "2022-11-28T14:22:24.252Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "To get a quote on our Income protection Plan, Kindly visit\n\nhttps://newlife.myenterprisegroup.io/application/quotation\n\nYou can also call us on 080423532 or visit our nearest branch near you.\n\nThank you."
+        }
+      },
+      "id": "640ad006-b3a3-4a3c-9a82-ef16af0a3962",
+      "createdTime": "2022-11-28T14:25:50.316Z",
+      "updatedTime": "2022-11-28T14:25:50.316Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "fa1e058e-5c25-41aa-a2dc-4f285c11e386",
+        "6af97e21-f6bf-4d2a-a2a3-eb10ccfddae3"
+      ],
+      "messages": {
+        "GetValue": [
+          "7026fd1b-064a-4902-a94f-365261d787af"
+        ]
+      },
+      "isGlobal": false,
+      "id": "01a4e001-440b-41aa-ba07-3150da342744",
+      "displayName": "Var",
+      "createdTime": "2022-11-28T14:22:57.1336268Z",
+      "updatedTime": "2022-11-28T15:14:18.9563657Z",
+      "createdUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    },
+    {
+      "systemType": "PersonName",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "7153332a-2288-4ed4-9c4a-3c548bd9da6b"
+        ]
+      },
+      "isGlobal": false,
+      "id": "576f4217-ded4-45e4-9bcb-beb9729af3bd",
+      "displayName": "Var1",
+      "createdTime": "2022-11-28T14:22:57.1336268Z",
+      "updatedTime": "2022-11-28T15:14:18.9563657Z",
+      "createdUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    },
+    {
+      "systemType": "Email",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "e51a625e-5de9-42b6-ab19-ac66282ae8da"
+        ]
+      },
+      "isGlobal": false,
+      "id": "bee50b7e-e21b-45ca-9ffa-4c13791ab765",
+      "displayName": "Var2",
+      "createdTime": "2022-11-28T14:22:57.1336268Z",
+      "updatedTime": "2022-11-28T15:14:18.9563657Z",
+      "createdUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ]
+}

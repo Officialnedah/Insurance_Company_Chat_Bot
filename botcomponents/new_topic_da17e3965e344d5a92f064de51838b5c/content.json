@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I carry out an encashment/cancellation, part encashment, and cash bonus?"
+      ],
+      "dialogId": "new_topic_da17e3965e344d5a92f064de51838b5c",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_da17e3965e344d5a92f064de51838b5c",
+      "displayName": "How do I carry out an encashment/cancellation, part encashment, and cash bonus?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:27:49.8394757Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "1cdc16aa-fdbe-4b25-a948-8e51f34006c9",
+      "messageNodes": [
+        {
+          "botMessageId": "bae5c4ce-49a6-4057-a23d-d190ef8db397",
+          "nodeType": "BotMessageNode",
+          "id": "1cdc16aa-fdbe-4b25-a948-8e51f34006c9",
+          "defaultTargetNodeId": "0edc5955-0f69-493d-ab36-08eb3f7cc892"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "0edc5955-0f69-493d-ab36-08eb3f7cc892"
+        }
+      ],
+      "id": "new_topic_da17e3965e344d5a92f064de51838b5c",
+      "displayName": "How do I carry out an encashment/cancellation, part encashment, and cash bonus?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Completion of a benefit request form at the office or an email to cs.lifeng@enterprisegroup.com.gh (payment made only into deduction account for request via email)\r\n- A copy of the client's ID (National ID, voters' ID, driver license, International passport) must be attached to the request. Officer must confirm in writing that the original ID has been seen."
+        }
+      },
+      "id": "bae5c4ce-49a6-4057-a23d-d190ef8db397"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "card transaction",
+        "card issues",
+        "debit card issues"
+      ],
+      "dialogId": "new_topic_f3a121daed6f4feaaa846566216f0715",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_f3a121daed6f4feaaa846566216f0715",
+      "displayName": "Card Transact",
+      "createdTime": "2022-09-01T12:08:19.2461672Z",
+      "updatedTime": "2022-11-28T12:53:00.3575821Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "49f26473-3152-4229-9219-699bad1b88dc",
+      "displayName": "Masters card"
+    },
+    {
+      "id": "27eacc2d-f9fc-409c-a75b-daf2215ba503",
+      "displayName": "Visa card"
+    },
+    {
+      "id": "08e6e19e-111d-41d9-a999-0ec8bfd4b706",
+      "displayName": "Debit MastersCard"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "b185019a-3706-41e2-a193-64e9dc69fc65",
+      "messageNodes": [
+        {
+          "botMessageId": "0c5c2fbf-dc71-4d24-915c-90725c4e9244",
+          "nodeType": "BotMessageNode",
+          "id": "dedbbe70-0e98-49e5-a10c-f821cf890a38",
+          "defaultTargetNodeId": "902b170a-e5f7-46ec-b0fc-1a8ebb26a78d"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_ddd28ba6e2c440a78e9f05da726d9487",
+          "nodeType": "DialogChangeNode",
+          "id": "902b170a-e5f7-46ec-b0fc-1a8ebb26a78d"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "f8dc0a77-7632-4a56-924f-c63e6877d6e5",
+          "nodeType": "QuestionNode",
+          "id": "b185019a-3706-41e2-a193-64e9dc69fc65",
+          "defaultTargetNodeId": "358688c8-de1b-4ac4-970e-90cc3844a40a"
+        },
+        {
+          "contextVariableId": "b89a4656-a43f-4548-b5ec-f9cd2c7a5639",
+          "nodeType": "QuestionNode",
+          "id": "358688c8-de1b-4ac4-970e-90cc3844a40a",
+          "defaultTargetNodeId": "0bde3ba4-67d2-4abf-adea-37f3dac03bf6"
+        },
+        {
+          "contextVariableId": "23dac691-6c3b-424d-90a0-1269428860eb",
+          "nodeType": "QuestionNode",
+          "id": "0bde3ba4-67d2-4abf-adea-37f3dac03bf6",
+          "routes": [
+            {
+              "expression": "@equals(parameters('23dac691-6c3b-424d-90a0-1269428860eb'), '49f26473-3152-4229-9219-699bad1b88dc')",
+              "targetNodeId": "dedbbe70-0e98-49e5-a10c-f821cf890a38"
+            },
+            {
+              "expression": "@equals(parameters('23dac691-6c3b-424d-90a0-1269428860eb'), '27eacc2d-f9fc-409c-a75b-daf2215ba503')"
+            },
+            {
+              "expression": "@equals(parameters('23dac691-6c3b-424d-90a0-1269428860eb'), '08e6e19e-111d-41d9-a999-0ec8bfd4b706')"
+            }
+          ],
+          "defaultTargetNodeId": "0bde3ba4-67d2-4abf-adea-37f3dac03bf6"
+        }
+      ],
+      "id": "new_topic_f3a121daed6f4feaaa846566216f0715",
+      "displayName": "Untitled",
+      "createdTime": "2022-09-01T12:08:19.2461672Z",
+      "updatedTime": "2022-09-01T12:08:19.2461672Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "What is your name?"
+        }
+      },
+      "id": "654bb67b-d3a9-4287-acb0-6d0bbd5fc707",
+      "createdTime": "2022-09-01T12:01:33.051Z",
+      "updatedTime": "2022-09-01T12:01:33.051Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "What is your email address?"
+        }
+      },
+      "id": "31a29ac9-912f-4866-a795-97e8f80d8c9a",
+      "createdTime": "2022-09-01T12:02:56.764Z",
+      "updatedTime": "2022-09-01T12:02:56.764Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "What type of card?"
+        }
+      },
+      "id": "a8398abf-689d-4492-ad08-8d110e83413e",
+      "createdTime": "2022-09-01T12:04:10.088Z",
+      "updatedTime": "2022-09-01T12:04:10.088Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Thank you for your information."
+        }
+      },
+      "id": "0c5c2fbf-dc71-4d24-915c-90725c4e9244",
+      "createdTime": "2022-09-01T12:06:55.539Z",
+      "updatedTime": "2022-09-01T12:06:55.539Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "None",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "654bb67b-d3a9-4287-acb0-6d0bbd5fc707"
+        ]
+      },
+      "isGlobal": false,
+      "id": "f8dc0a77-7632-4a56-924f-c63e6877d6e5",
+      "displayName": "Var",
+      "createdTime": "2022-09-01T12:08:19.2461672Z",
+      "updatedTime": "2022-09-01T12:08:19.2461672Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    },
+    {
+      "systemType": "Email",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "31a29ac9-912f-4866-a795-97e8f80d8c9a"
+        ]
+      },
+      "isGlobal": false,
+      "id": "b89a4656-a43f-4548-b5ec-f9cd2c7a5639",
+      "displayName": "Var1",
+      "createdTime": "2022-09-01T12:08:19.2461672Z",
+      "updatedTime": "2022-09-01T12:08:19.2461672Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "49f26473-3152-4229-9219-699bad1b88dc",
+        "27eacc2d-f9fc-409c-a75b-daf2215ba503",
+        "08e6e19e-111d-41d9-a999-0ec8bfd4b706"
+      ],
+      "messages": {
+        "GetValue": [
+          "a8398abf-689d-4492-ad08-8d110e83413e"
+        ]
+      },
+      "isGlobal": false,
+      "id": "23dac691-6c3b-424d-90a0-1269428860eb",
+      "displayName": "Var2",
+      "createdTime": "2022-09-01T12:08:19.2461672Z",
+      "updatedTime": "2022-09-01T12:08:19.2461672Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ]
+}

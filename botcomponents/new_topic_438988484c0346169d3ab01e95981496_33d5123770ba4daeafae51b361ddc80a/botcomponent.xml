@@ -1,0 +1,12 @@
+<botcomponent schemaname="new_topic_438988484c0346169d3ab01e95981496_33d5123770ba4daeafae51b361ddc80a">
+  <componenttype>0</componenttype>
+  <description>Lesson 1 - This lesson will show you how you can create a simple topic with one conditional branch.
+
+Over the next few lessons, we will show how to add and define variables, conditions and entities.
+
+Welcome to Power Virtual Agents!</description>
+  <iscustomizable>1</iscustomizable>
+  <name>Create Account</name>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

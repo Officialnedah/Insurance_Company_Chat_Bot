@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "how to create bank Account",
+        "Create bank Account",
+        "bank account",
+        "account",
+        "Store hours",
+        "Daily open hours"
+      ],
+      "dialogId": "new_topic_438988484c0346169d3ab01e95981496_33d5123770ba4daeafae51b361ddc80a",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_438988484c0346169d3ab01e95981496_33d5123770ba4daeafae51b361ddc80a",
+      "displayName": "Create Account",
+      "description": "Lesson 1 - This lesson will show you how you can create a simple topic with one conditional branch.\n\nOver the next few lessons, we will show how to add and define variables, conditions and entities.\n\nWelcome to Power Virtual Agents!",
+      "createdTime": "2019-01-15T00:00:00Z",
+      "updatedTime": "2022-11-28T12:55:35.7047596Z",
+      "createdUserId": "user0",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "e901982c-a22d-4074-b8c7-f7842977a047",
+      "messageNodes": [
+        {
+          "botMessageId": "159e7c92-8871-41a0-a739-9f67085f995f",
+          "nodeType": "BotMessageNode",
+          "id": "e901982c-a22d-4074-b8c7-f7842977a047",
+          "defaultTargetNodeId": "1f6c0946-4d56-4714-96f5-15e2247e953b"
+        },
+        {
+          "botMessageId": "614e2fa3-2cf0-42e3-a2eb-18f9fb274ee6",
+          "nodeType": "BotMessageNode",
+          "id": "1f6c0946-4d56-4714-96f5-15e2247e953b"
+        }
+      ],
+      "id": "new_topic_438988484c0346169d3ab01e95981496_33d5123770ba4daeafae51b361ddc80a",
+      "displayName": "Dialog",
+      "createdTime": "2019-01-15T00:00:00Z",
+      "updatedTime": "2022-08-31T10:45:53.8916486Z",
+      "createdUserId": "user0",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "I'm happy to assit you in creating a bank account with us"
+        }
+      },
+      "id": "159e7c92-8871-41a0-a739-9f67085f995f",
+      "createdTime": "2019-01-15T00:00:00Z",
+      "updatedTime": "2022-08-31T09:03:06.5914464Z",
+      "createdUserId": "user0",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Kindly provide us with your full name and email address to create an account."
+        }
+      },
+      "id": "614e2fa3-2cf0-42e3-a2eb-18f9fb274ee6",
+      "createdTime": "2019-10-24T04:02:13.435Z",
+      "updatedTime": "2022-08-31T09:03:06.5914464Z",
+      "createdUserId": "user0",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I put a hold on my policy for a short period? (BRIDGING)"
+      ],
+      "dialogId": "new_topic_6529559190e1400a968894cfd1ebf504",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_6529559190e1400a968894cfd1ebf504",
+      "displayName": "How do I put a hold on my policy for a short period? (BRIDGING)",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:29:44.7095015Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "c3690ec1-88ff-444e-afa3-47e26be493c8",
+      "messageNodes": [
+        {
+          "botMessageId": "fbe2b60f-9915-4a76-b822-1051ca8c2abf",
+          "nodeType": "BotMessageNode",
+          "id": "c3690ec1-88ff-444e-afa3-47e26be493c8",
+          "defaultTargetNodeId": "787d32ec-2a34-4852-866d-d44070c8b7cb"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "787d32ec-2a34-4852-866d-d44070c8b7cb"
+        }
+      ],
+      "id": "new_topic_6529559190e1400a968894cfd1ebf504",
+      "displayName": "How do I put a hold on my policy for a short period? (BRIDGING)",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Completion of a request form or submission of letter to bridge.\r\n- Bridging can only be done on investment policies with a letter confirming unemployment status."
+        }
+      },
+      "id": "fbe2b60f-9915-4a76-b822-1051ca8c2abf"
+    }
+  ]
+}

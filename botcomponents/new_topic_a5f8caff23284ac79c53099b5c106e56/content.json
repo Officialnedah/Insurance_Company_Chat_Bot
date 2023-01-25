@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I buy a cash bonus feature on an existing policy?"
+      ],
+      "dialogId": "new_topic_a5f8caff23284ac79c53099b5c106e56",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_a5f8caff23284ac79c53099b5c106e56",
+      "displayName": "How do I buy a cash bonus feature on an existing policy?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:29:57.2818299Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "aea1f063-df7f-4f60-a8ca-2a3e6e055b2e",
+      "messageNodes": [
+        {
+          "botMessageId": "ac6677bf-448b-44ca-aca9-59f1a1930ec3",
+          "nodeType": "BotMessageNode",
+          "id": "aea1f063-df7f-4f60-a8ca-2a3e6e055b2e",
+          "defaultTargetNodeId": "7d51930d-9f7c-4336-9c98-23df92362e04"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "7d51930d-9f7c-4336-9c98-23df92362e04"
+        }
+      ],
+      "id": "new_topic_a5f8caff23284ac79c53099b5c106e56",
+      "displayName": "How do I buy a cash bonus feature on an existing policy?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Fill EL request form or submit a letter to add cash bonus.\r\n- This ranges from NGN 1,000 to any amount but not above the premium payable on the policy."
+        }
+      },
+      "id": "ac6677bf-448b-44ca-aca9-59f1a1930ec3"
+    }
+  ]
+}

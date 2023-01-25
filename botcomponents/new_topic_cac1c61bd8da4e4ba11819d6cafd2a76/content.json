@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I increase the covered lives on my policy?"
+      ],
+      "dialogId": "new_topic_cac1c61bd8da4e4ba11819d6cafd2a76",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_cac1c61bd8da4e4ba11819d6cafd2a76",
+      "displayName": "How do I increase the covered lives on my policy?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:30:17.5724014Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "0d0b8f29-7278-4f31-8610-0e7180932373",
+      "messageNodes": [
+        {
+          "botMessageId": "199d150b-c521-478d-a36b-4cb1888efd4b",
+          "nodeType": "BotMessageNode",
+          "id": "0d0b8f29-7278-4f31-8610-0e7180932373",
+          "defaultTargetNodeId": "65a0621e-3b50-4ac1-858d-002406e2a0bf"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "65a0621e-3b50-4ac1-858d-002406e2a0bf"
+        }
+      ],
+      "id": "new_topic_cac1c61bd8da4e4ba11819d6cafd2a76",
+      "displayName": "How do I increase the covered lives on my policy?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Fill EL request form or submit a letter to add Life via email/walk-in\r\n- Client must indicate the name and date of birth of the new life, as well as the role he/she is to play on the policy. E.g. mother, father, guardian… etc.\r\n\r\n\r\n*NB. Officer must ensure that the age of the new life falls within the policy's age limits.*"
+        }
+      },
+      "id": "199d150b-c521-478d-a36b-4cb1888efd4b"
+    }
+  ]
+}

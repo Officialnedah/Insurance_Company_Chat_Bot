@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "9. What is the remittance information of ICBC(Asia)? - General Information - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_e3b760d633d1434d8742324c358d370c",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_e3b760d633d1434d8742324c358d370c",
+      "displayName": "9. What is the remittance information of ICBC(Asia)? - General Information - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-09-01T11:58:33.3535646Z",
+      "updatedTime": "2022-09-01T11:58:33.3535646Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "ad6daedf-4f1c-4b96-8ae7-383d988bd11c",
+      "messageNodes": [
+        {
+          "botMessageId": "f30aa98d-b694-4455-a564-59e1a73b31b3",
+          "nodeType": "BotMessageNode",
+          "id": "ad6daedf-4f1c-4b96-8ae7-383d988bd11c",
+          "defaultTargetNodeId": "8207ab18-5249-41f0-b477-d3fbd5b8dcaf"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "8207ab18-5249-41f0-b477-d3fbd5b8dcaf"
+        }
+      ],
+      "id": "new_topic_e3b760d633d1434d8742324c358d370c",
+      "displayName": "9. What is the remittance information of ICBC(Asia)? - General Information - Personal Internet Banking",
+      "createdTime": "2022-09-01T11:53:47.2561201Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**9.  What is the remittance information of ICBC(Asia)?**\r\n  \r\n\r\nAns: 1) SWIFT code : UBHKHKHH\r\n\r\n**2) Bank name(Chinese) : 中國工商銀行（亞洲）有限公司**\r\n  \r\n\r\nKong\r\n  \r\n\r\n6) Bank code : 072\r\n  \r\n\r\n7) Bank account : your bank account"
+        }
+      },
+      "id": "f30aa98d-b694-4455-a564-59e1a73b31b3"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "loan period",
+        "What is the maximum repayment period?",
+        "What is the maximum repayment period?",
+        "maximum repayment",
+        "maximum repayment period"
+      ],
+      "dialogId": "new_topic_e12bfa8c4d7448968943c4d42c632f9d",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_e12bfa8c4d7448968943c4d42c632f9d",
+      "displayName": "Maximum repayment period",
+      "createdTime": "2022-08-31T14:23:51.6671571Z",
+      "updatedTime": "2022-11-28T12:54:16.8748961Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "9d503ac9-2721-4820-911f-160ca637f148",
+      "messageNodes": [
+        {
+          "botMessageId": "7c4507bc-6d0d-431a-b6b0-8a544b4f78cf",
+          "nodeType": "BotMessageNode",
+          "id": "9d503ac9-2721-4820-911f-160ca637f148"
+        }
+      ],
+      "id": "new_topic_e12bfa8c4d7448968943c4d42c632f9d",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T14:23:51.6671571Z",
+      "updatedTime": "2022-08-31T14:28:26.554936Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**What is the maximum repayment period?** \n\nThe maximum repayment period is 12 months or 1 year – (negotiable)."
+        }
+      },
+      "id": "7c4507bc-6d0d-431a-b6b0-8a544b4f78cf",
+      "createdTime": "2022-08-31T14:22:51.372Z",
+      "updatedTime": "2022-08-31T14:22:51.372Z"
+    }
+  ]
+}

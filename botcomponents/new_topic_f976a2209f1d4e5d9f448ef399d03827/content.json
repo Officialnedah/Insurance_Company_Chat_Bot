@@ -1,0 +1,252 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "how to buy child educare plan",
+        "how to buy child plan",
+        "children plan",
+        "children",
+        "child educare plan",
+        "plan",
+        "educare",
+        "child"
+      ],
+      "dialogId": "new_topic_f976a2209f1d4e5d9f448ef399d03827",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_f976a2209f1d4e5d9f448ef399d03827",
+      "displayName": "Child Educare Plan",
+      "createdTime": "2022-08-31T13:28:27.1481989Z",
+      "updatedTime": "2022-11-28T14:03:37.9148984Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "54a09bee-e6c2-4264-b44f-5ca768ae02b1",
+      "displayName": "YES"
+    },
+    {
+      "id": "a0252940-ecfa-4678-a91b-cd05fcad6af7",
+      "displayName": "NO"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "44261333-9f9c-4dd6-bd37-509ae6d11ecc",
+      "messageNodes": [
+        {
+          "botMessageId": "db8fc503-e87b-4658-9bf9-b40060841cb9",
+          "nodeType": "BotMessageNode",
+          "id": "44261333-9f9c-4dd6-bd37-509ae6d11ecc",
+          "defaultTargetNodeId": "ce05cdfd-02e0-49e3-a972-9c14f0a77bd5"
+        },
+        {
+          "botMessageId": "ed609325-95f7-4402-941f-1281e4b20d46",
+          "nodeType": "BotMessageNode",
+          "id": "e845be9e-55f5-427f-96b7-78d1c1107b03",
+          "defaultTargetNodeId": "8426d5ad-e16d-4c6c-b602-71d7777851ad"
+        },
+        {
+          "botMessageId": "231a0492-831c-42e9-9437-8d6ba5c593aa",
+          "nodeType": "BotMessageNode",
+          "id": "90bfdc41-7916-495c-a81b-629c00da15da",
+          "defaultTargetNodeId": "5942b045-7f02-4377-8870-fbe27b42440f"
+        },
+        {
+          "botMessageId": "ff0c28a2-d65a-47e9-a02f-b6592f0663ae",
+          "nodeType": "BotMessageNode",
+          "id": "5942b045-7f02-4377-8870-fbe27b42440f",
+          "defaultTargetNodeId": "8409f3f0-8805-4815-82f2-c57fb1dafdb5"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_db1f76b081dc43389df9dd2df7518737_confirmedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "8409f3f0-8805-4815-82f2-c57fb1dafdb5"
+        },
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_954135cafcd647eaae5999ad91fc08cf_talktoagent",
+          "nodeType": "DialogChangeNode",
+          "id": "9eade82b-f20c-4d4a-ab66-26b24e273b94"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "1d82f07d-b20e-43a4-b306-b4956d138f4a",
+          "nodeType": "QuestionNode",
+          "id": "ce05cdfd-02e0-49e3-a972-9c14f0a77bd5",
+          "routes": [
+            {
+              "expression": "@equals(parameters('1d82f07d-b20e-43a4-b306-b4956d138f4a'), '54a09bee-e6c2-4264-b44f-5ca768ae02b1')",
+              "targetNodeId": "e845be9e-55f5-427f-96b7-78d1c1107b03"
+            },
+            {
+              "expression": "@equals(parameters('1d82f07d-b20e-43a4-b306-b4956d138f4a'), 'a0252940-ecfa-4678-a91b-cd05fcad6af7')",
+              "targetNodeId": "9eade82b-f20c-4d4a-ab66-26b24e273b94"
+            }
+          ],
+          "defaultTargetNodeId": "ce05cdfd-02e0-49e3-a972-9c14f0a77bd5"
+        },
+        {
+          "contextVariableId": "new_variable_438988484c0346169d3ab01e95981496_13ffef306ff34482874df7ac72cfafc0",
+          "nodeType": "QuestionNode",
+          "id": "8426d5ad-e16d-4c6c-b602-71d7777851ad",
+          "defaultTargetNodeId": "0ef533f5-a483-4b34-9d0a-964434f9a536"
+        },
+        {
+          "contextVariableId": "8c6dc000-4472-42b4-89bf-6b8f76279c24",
+          "nodeType": "QuestionNode",
+          "id": "0ef533f5-a483-4b34-9d0a-964434f9a536",
+          "defaultTargetNodeId": "90bfdc41-7916-495c-a81b-629c00da15da"
+        }
+      ],
+      "id": "new_topic_f976a2209f1d4e5d9f448ef399d03827",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T13:28:27.1481989Z",
+      "updatedTime": "2022-11-28T14:03:37.9148984Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Will you like buy our Child Educare plan?"
+        }
+      },
+      "id": "5f5c0be8-c811-42a4-a5c3-4626fcf71749",
+      "createdTime": "2022-08-31T14:00:56.646Z",
+      "updatedTime": "2022-08-31T14:00:56.646Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Full Name?"
+        }
+      },
+      "id": "fe0baffb-d786-46bc-80ea-d12c46bdcadb",
+      "createdTime": "2022-08-31T14:02:42.799Z",
+      "updatedTime": "2022-08-31T14:02:42.799Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Email address?"
+        }
+      },
+      "id": "07787bdb-cc25-4639-8aa6-689bfaee6bad",
+      "createdTime": "2022-08-31T14:04:48.167Z",
+      "updatedTime": "2022-08-31T14:04:48.167Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Our Educare Plan provides a savings vehicle focused on saving for your kids' education.\n\nSome of the product benefits of the child Educare plan are:\n\n1\\. Protection Against Inflation\n\n2\\. Flexible Premium Choices"
+        }
+      },
+      "id": "db8fc503-e87b-4658-9bf9-b40060841cb9",
+      "createdTime": "2022-08-31T13:26:26.797Z",
+      "updatedTime": "2022-08-31T13:26:26.797Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Kindly provide us with your details"
+        }
+      },
+      "id": "ed609325-95f7-4402-941f-1281e4b20d46",
+      "createdTime": "2022-08-31T14:02:22.707Z",
+      "updatedTime": "2022-08-31T14:02:22.707Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Thank you for provinding your details."
+        }
+      },
+      "id": "231a0492-831c-42e9-9437-8d6ba5c593aa",
+      "createdTime": "2022-08-31T14:05:14.443Z",
+      "updatedTime": "2022-08-31T14:05:14.443Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "To get a quote on the Child Educare Plan, Kindly visit https://newlife.myenterprisegroup.io/products   You can also call us on 080423532 or visit our nearest branch near you"
+        }
+      },
+      "id": "ff0c28a2-d65a-47e9-a02f-b6592f0663ae",
+      "createdTime": "2022-08-31T14:32:16.184Z",
+      "updatedTime": "2022-08-31T14:32:16.184Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "54a09bee-e6c2-4264-b44f-5ca768ae02b1",
+        "a0252940-ecfa-4678-a91b-cd05fcad6af7"
+      ],
+      "messages": {
+        "GetValue": [
+          "5f5c0be8-c811-42a4-a5c3-4626fcf71749"
+        ]
+      },
+      "isGlobal": false,
+      "id": "1d82f07d-b20e-43a4-b306-b4956d138f4a",
+      "displayName": "Var",
+      "createdTime": "2022-08-31T14:00:56.647Z",
+      "updatedTime": "2022-11-28T14:03:37.9148984Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    },
+    {
+      "systemType": "Email",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "07787bdb-cc25-4639-8aa6-689bfaee6bad"
+        ]
+      },
+      "isGlobal": false,
+      "id": "8c6dc000-4472-42b4-89bf-6b8f76279c24",
+      "displayName": "Var1",
+      "createdTime": "2022-08-31T14:04:48.167Z",
+      "updatedTime": "2022-11-28T14:03:37.9148984Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ]
+}

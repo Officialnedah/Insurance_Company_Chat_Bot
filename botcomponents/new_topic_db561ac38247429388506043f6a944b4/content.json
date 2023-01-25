@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "e-Statement - Ans: - Loan - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_db561ac38247429388506043f6a944b4",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_db561ac38247429388506043f6a944b4",
+      "displayName": "e-Statement - Ans: - Loan - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T12:49:01.9003797Z",
+      "updatedTime": "2022-08-31T12:49:01.9003797Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "bfc41b1b-3ab3-47be-9b4b-68554e31663b",
+      "messageNodes": [
+        {
+          "botMessageId": "762956fb-3e2d-46c5-86e4-cce33762cdde",
+          "nodeType": "BotMessageNode",
+          "id": "bfc41b1b-3ab3-47be-9b4b-68554e31663b",
+          "defaultTargetNodeId": "dca3a281-f19c-4c0b-8af0-76a6510d7b9a"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "dca3a281-f19c-4c0b-8af0-76a6510d7b9a"
+        }
+      ],
+      "id": "new_topic_db561ac38247429388506043f6a944b4",
+      "displayName": "e-Statement - Ans: - Loan - Personal Internet Banking",
+      "createdTime": "2022-08-31T12:48:31.4080286Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**e-Statement**\r\n  \r\n\r\nFX & Precious Metal Trading Account are eligible for the e-Statement services."
+        }
+      },
+      "id": "762956fb-3e2d-46c5-86e4-cce33762cdde"
+    }
+  ]
+}

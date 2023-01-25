@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "3. After applied the service, how can I read the statement? - e-Statement - Ans: - Loan - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_aa1d795e9efd444aa373b1061466602f",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_aa1d795e9efd444aa373b1061466602f",
+      "displayName": "3. After applied the service, how can I read the statement? - e-Statement - Ans: - Loan - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T12:49:49.6744791Z",
+      "updatedTime": "2022-08-31T12:49:49.6744791Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "890fe4c5-4f7b-47b3-8c0a-6ba758002442",
+      "messageNodes": [
+        {
+          "botMessageId": "98dc1817-dc80-461d-bf63-382945b84b2f",
+          "nodeType": "BotMessageNode",
+          "id": "890fe4c5-4f7b-47b3-8c0a-6ba758002442",
+          "defaultTargetNodeId": "135a7b9d-0c26-4fbf-992e-56ea89dd23a5"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "135a7b9d-0c26-4fbf-992e-56ea89dd23a5"
+        }
+      ],
+      "id": "new_topic_aa1d795e9efd444aa373b1061466602f",
+      "displayName": "3. After applied the service, how can I read the statement? - e-Statement - Ans: - Loan - Personal Internet Banking",
+      "createdTime": "2022-08-31T12:49:39.7212553Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**3.  After applied the service, how can I read the statement?**\r\n  \r\n\r\nAns: After applied the service, we will send an alert email to your registered email address when there is new e-Statement. And you can read and download the new e-statement via Personal Internet Banking (\"e-Statement\"> ”View\r\n  \r\n\r\ne-Statement” in horizontal menu, or under “Electronic Services”>\"e-Statement\"> ” View e-Statement” in vertical menu)."
+        }
+      },
+      "id": "98dc1817-dc80-461d-bf63-382945b84b2f"
+    }
+  ]
+}

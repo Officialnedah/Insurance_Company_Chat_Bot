@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "What are the different types of funds transfer available? - General Information - Ans:"
+      ],
+      "dialogId": "new_topic_164612d16e8d4a66ac9c608875a6c46e",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_164612d16e8d4a66ac9c608875a6c46e",
+      "displayName": "What are the different types of funds transfer available? - General Information - Ans:",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T13:02:49.6556426Z",
+      "updatedTime": "2022-11-28T13:28:24.9413564Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "0d7ddfff-0a32-48d2-96eb-bdc53086d486",
+      "messageNodes": [
+        {
+          "botMessageId": "4e4250cd-a114-49c4-bec5-133d3d6548b6",
+          "nodeType": "BotMessageNode",
+          "id": "0d7ddfff-0a32-48d2-96eb-bdc53086d486",
+          "defaultTargetNodeId": "38f4b776-8efa-49d3-b73d-84af4de1decb"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "38f4b776-8efa-49d3-b73d-84af4de1decb"
+        }
+      ],
+      "id": "new_topic_164612d16e8d4a66ac9c608875a6c46e",
+      "displayName": "What are the different types of funds transfer available? - General Information - Ans:",
+      "createdTime": "2022-08-31T13:02:23.2219834Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**What are the different types of funds transfer available?**\r\n  \r\n\r\nAns:Two types of funds transfer are available to you through our Internet Banking Service:\r\n  \r\n\r\n- Same Party Account Transfer\r\n- Pre-registered Third Party Account Transfer"
+        }
+      },
+      "id": "4e4250cd-a114-49c4-bec5-133d3d6548b6"
+    }
+  ]
+}

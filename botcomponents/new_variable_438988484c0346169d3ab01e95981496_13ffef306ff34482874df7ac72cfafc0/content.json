@@ -1,0 +1,24 @@
+{
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Session",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "messages": {
+        "GetValue": [
+          "fe0baffb-d786-46bc-80ea-d12c46bdcadb"
+        ]
+      },
+      "isGlobal": true,
+      "id": "new_variable_438988484c0346169d3ab01e95981496_13ffef306ff34482874df7ac72cfafc0",
+      "displayName": "Name",
+      "createdTime": "2022-08-31T14:06:11.6068102Z",
+      "updatedTime": "2022-08-31T14:11:53.3260952Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ]
+}

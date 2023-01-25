@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I migrate to another policy?"
+      ],
+      "dialogId": "new_topic_ea3f72df85bf4153a51ef5a4147e7562",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_ea3f72df85bf4153a51ef5a4147e7562",
+      "displayName": "How do I migrate to another policy?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:27:49.8394757Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "53d17ea4-3a4c-4b02-a071-38e5577e174b",
+      "messageNodes": [
+        {
+          "botMessageId": "9860edc5-70bb-4bfd-90fa-750d0d9e4539",
+          "nodeType": "BotMessageNode",
+          "id": "53d17ea4-3a4c-4b02-a071-38e5577e174b",
+          "defaultTargetNodeId": "1f65c0f3-380c-484d-b6eb-c353d5b5c91b"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "1f65c0f3-380c-484d-b6eb-c353d5b5c91b"
+        }
+      ],
+      "id": "new_topic_ea3f72df85bf4153a51ef5a4147e7562",
+      "displayName": "How do I migrate to another policy?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Client must complete and sign EL generic letter for migration or\r\n- Fill EL migration form when he walks into EL office\r\n- A copy of the client's national photo ID (voters' ID, National ID, driver’s license, or International passport) must be attached to the request.\r\n- Officer must confirm in writing that the original ID has been seen.\r\n\r\n\r\n*NB: Officer should inform Policyholder that they can only convert savings/investment plans to IPP or Family Care and not vice versa.*"
+        }
+      },
+      "id": "9860edc5-70bb-4bfd-90fa-750d0d9e4539"
+    }
+  ]
+}

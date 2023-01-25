@@ -1,0 +1,169 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "card transactions",
+        "card issues",
+        "card replacement fee",
+        "card issuance fee",
+        "card fee"
+      ],
+      "dialogId": "new_topic_542148858d3c47c48c6108993a959317",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_542148858d3c47c48c6108993a959317",
+      "displayName": "Card Transaction",
+      "createdTime": "2022-08-31T14:40:57.7847561Z",
+      "updatedTime": "2022-11-28T12:53:28.1706854Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "f2bae883-baf7-4a35-922d-d596394ea174",
+      "displayName": "PERSONAL ACCOUNTS"
+    },
+    {
+      "id": "d0581e17-9a1e-4ffe-9f82-b3d40ab0a1f6",
+      "displayName": "PRESTIGE BANKING ACCOUNTS"
+    },
+    {
+      "id": "0fccf66b-6e8e-4c47-b612-48eca1d58258",
+      "displayName": "CORPORATE, COMMERCIAL & SME ACCOUNTS"
+    },
+    {
+      "id": "3c7e15ec-8a2f-4fa4-9d12-261ad89387c8",
+      "displayName": "INCLUSIVE BANKING"
+    },
+    {
+      "id": "3b80c3e0-2ec0-4261-91a0-cd07fa6f2dc5",
+      "displayName": "SMART Goal Account"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "635f75e9-9cf2-4915-81d1-ebd5811509c8",
+      "messageNodes": [
+        {
+          "botMessageId": "02f37468-48c5-4aa9-b147-b5e380ee523c",
+          "nodeType": "BotMessageNode",
+          "id": "d2daa5aa-cacb-4f2d-86c5-181810c355f0",
+          "defaultTargetNodeId": "a99dee09-12de-4ef5-b62d-0d3d826071b1"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "a99dee09-12de-4ef5-b62d-0d3d826071b1"
+        },
+        {
+          "targetDialogId": "new_topic_1a5937d3a57341bd93cd428aa73b5a4c",
+          "nodeType": "DialogChangeNode",
+          "id": "04d64bfd-1d4e-4a20-bf2e-35a05aa68295"
+        },
+        {
+          "targetDialogId": "new_topic_9c31d4fb3f294c5c816531a84fb7849b",
+          "nodeType": "DialogChangeNode",
+          "id": "9edb056b-2724-445a-a9f2-df8210e6933b"
+        },
+        {
+          "targetDialogId": "new_topic_546fdeb08a934d5ea699210272f19751",
+          "nodeType": "DialogChangeNode",
+          "id": "3a78289a-08f9-463b-912e-96c7b2ab808b"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "e7056e7c-a2db-45ae-89c1-76f51b310ecf",
+          "nodeType": "QuestionNode",
+          "id": "635f75e9-9cf2-4915-81d1-ebd5811509c8",
+          "routes": [
+            {
+              "expression": "@equals(parameters('e7056e7c-a2db-45ae-89c1-76f51b310ecf'), 'd0581e17-9a1e-4ffe-9f82-b3d40ab0a1f6')",
+              "targetNodeId": "9edb056b-2724-445a-a9f2-df8210e6933b"
+            },
+            {
+              "expression": "@equals(parameters('e7056e7c-a2db-45ae-89c1-76f51b310ecf'), '0fccf66b-6e8e-4c47-b612-48eca1d58258')",
+              "targetNodeId": "3a78289a-08f9-463b-912e-96c7b2ab808b"
+            },
+            {
+              "expression": "@equals(parameters('e7056e7c-a2db-45ae-89c1-76f51b310ecf'), '3c7e15ec-8a2f-4fa4-9d12-261ad89387c8')"
+            },
+            {
+              "expression": "@equals(parameters('e7056e7c-a2db-45ae-89c1-76f51b310ecf'), '3b80c3e0-2ec0-4261-91a0-cd07fa6f2dc5')"
+            },
+            {
+              "expression": "@equals(parameters('e7056e7c-a2db-45ae-89c1-76f51b310ecf'), 'f2bae883-baf7-4a35-922d-d596394ea174')",
+              "targetNodeId": "04d64bfd-1d4e-4a20-bf2e-35a05aa68295"
+            }
+          ],
+          "defaultTargetNodeId": "d2daa5aa-cacb-4f2d-86c5-181810c355f0"
+        }
+      ],
+      "id": "new_topic_542148858d3c47c48c6108993a959317",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T14:40:57.7847561Z",
+      "updatedTime": "2022-08-31T19:47:29.6358393Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "what account type do you want to know more about?"
+        }
+      },
+      "id": "41d63817-5efc-4791-8d48-b6fd5ab50f8f",
+      "createdTime": "2022-08-31T18:19:56.935Z",
+      "updatedTime": "2022-08-31T18:19:56.935Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Card Transaction fees are**\n\n1.  Visa Platinum -GH¢50/$10/€10/£10 Prestige\n2.  Visa Gold - GH¢40\n3.  Visa Classic - GH¢30\n4.  GH-Link Debit - GH¢20"
+        }
+      },
+      "id": "02f37468-48c5-4aa9-b147-b5e380ee523c",
+      "createdTime": "2022-08-31T14:44:41.778Z",
+      "updatedTime": "2022-08-31T14:44:41.778Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "f2bae883-baf7-4a35-922d-d596394ea174",
+        "d0581e17-9a1e-4ffe-9f82-b3d40ab0a1f6",
+        "0fccf66b-6e8e-4c47-b612-48eca1d58258",
+        "3c7e15ec-8a2f-4fa4-9d12-261ad89387c8",
+        "3b80c3e0-2ec0-4261-91a0-cd07fa6f2dc5"
+      ],
+      "messages": {
+        "GetValue": [
+          "41d63817-5efc-4791-8d48-b6fd5ab50f8f"
+        ]
+      },
+      "isGlobal": false,
+      "id": "e7056e7c-a2db-45ae-89c1-76f51b310ecf",
+      "displayName": "Var",
+      "createdTime": "2022-08-31T18:19:56.935Z",
+      "updatedTime": "2022-08-31T19:47:29.6358393Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ]
+}

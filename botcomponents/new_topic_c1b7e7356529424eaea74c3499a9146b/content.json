@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I remove a life covered by my policy?"
+      ],
+      "dialogId": "new_topic_c1b7e7356529424eaea74c3499a9146b",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_c1b7e7356529424eaea74c3499a9146b",
+      "displayName": "How do I remove a life covered by my policy?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:30:06.5381128Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "16c96677-6cc1-46c5-9814-e899dbed25fc",
+      "messageNodes": [
+        {
+          "botMessageId": "c0851b32-5b7c-436a-a61b-d0d1fefde826",
+          "nodeType": "BotMessageNode",
+          "id": "16c96677-6cc1-46c5-9814-e899dbed25fc",
+          "defaultTargetNodeId": "3ff3b2e2-f905-449f-95ed-35af2a2a4eaf"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "3ff3b2e2-f905-449f-95ed-35af2a2a4eaf"
+        }
+      ],
+      "id": "new_topic_c1b7e7356529424eaea74c3499a9146b",
+      "displayName": "How do I remove a life covered by my policy?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Fill EL request form or submit a letter to remove life via email/walk-in\r\n- Client must indicate the name of the life he wishes to remove from the policy."
+        }
+      },
+      "id": "c0851b32-5b7c-436a-a61b-d0d1fefde826"
+    }
+  ]
+}

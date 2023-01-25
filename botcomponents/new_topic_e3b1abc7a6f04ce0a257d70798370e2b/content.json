@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I remove a life from my policy that was wrongly covered?"
+      ],
+      "dialogId": "new_topic_e3b1abc7a6f04ce0a257d70798370e2b",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_e3b1abc7a6f04ce0a257d70798370e2b",
+      "displayName": "How do I remove a life from my policy that was wrongly covered?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:27:49.8394757Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "c3dc8f00-740e-4a18-90f6-a4270caab6e4",
+      "messageNodes": [
+        {
+          "botMessageId": "9e4dc119-8da1-4b9c-9187-efe28f895d3b",
+          "nodeType": "BotMessageNode",
+          "id": "c3dc8f00-740e-4a18-90f6-a4270caab6e4",
+          "defaultTargetNodeId": "97cc47d4-486d-43bd-92ac-9383e88a90d1"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "97cc47d4-486d-43bd-92ac-9383e88a90d1"
+        }
+      ],
+      "id": "new_topic_e3b1abc7a6f04ce0a257d70798370e2b",
+      "displayName": "How do I remove a life from my policy that was wrongly covered?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Fill EL request form or submit a letter to remove life from inception via email/walk-in\r\n- To justify this, client must indicate the name and date of birth of the life he wishes to remove from the policy\r\n- Provide proof that the life was beyond EL's coverable limit at the inception of the policy (proof must be in the form of a national Id , or birth certificate)"
+        }
+      },
+      "id": "9e4dc119-8da1-4b9c-9187-efe28f895d3b"
+    }
+  ]
+}

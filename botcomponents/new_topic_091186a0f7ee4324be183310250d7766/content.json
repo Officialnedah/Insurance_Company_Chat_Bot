@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I revise my trustee?"
+      ],
+      "dialogId": "new_topic_091186a0f7ee4324be183310250d7766",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_091186a0f7ee4324be183310250d7766",
+      "displayName": "How do I revise my trustee?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:29:27.3748983Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "c9139989-737d-4a1e-9303-848d7714bc48",
+      "messageNodes": [
+        {
+          "botMessageId": "795841e8-f3d1-4704-a2d6-818107d587d6",
+          "nodeType": "BotMessageNode",
+          "id": "c9139989-737d-4a1e-9303-848d7714bc48",
+          "defaultTargetNodeId": "d50855fe-cb4c-4a10-821f-2c88e0511b15"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "d50855fe-cb4c-4a10-821f-2c88e0511b15"
+        }
+      ],
+      "id": "new_topic_091186a0f7ee4324be183310250d7766",
+      "displayName": "How do I revise my trustee?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Fill EL request form or submit a letter to change trustee details via email/walk-in\r\n- Client must indicate the name and date of birth of the new trustee, the relationship of the trustee to the client, as well as the contact details of the new trustee."
+        }
+      },
+      "id": "795841e8-f3d1-4704-a2d6-818107d587d6"
+    }
+  ]
+}
