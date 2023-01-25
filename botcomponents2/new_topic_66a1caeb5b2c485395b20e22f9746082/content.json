@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "Where can I use my Payroll Credit Card?"
+      ],
+      "dialogId": "new_topic_66a1caeb5b2c485395b20e22f9746082",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_66a1caeb5b2c485395b20e22f9746082",
+      "displayName": "Where can I use my Payroll Credit Card?",
+      "description": "https://www.fidelitybank.ng/contact-us/frequently-asked-questions/",
+      "createdTime": "2022-08-31T12:22:43.9292732Z",
+      "updatedTime": "2022-11-28T12:32:31.5735137Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "1e40c12d-fe19-4d8f-a3cb-987f17463051",
+      "messageNodes": [
+        {
+          "botMessageId": "308b803e-2de7-4128-958b-5f4cc75afdff",
+          "nodeType": "BotMessageNode",
+          "id": "1e40c12d-fe19-4d8f-a3cb-987f17463051",
+          "defaultTargetNodeId": "597c6d19-7c63-4ad2-86b6-106e55e74a39"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "597c6d19-7c63-4ad2-86b6-106e55e74a39"
+        }
+      ],
+      "id": "new_topic_66a1caeb5b2c485395b20e22f9746082",
+      "displayName": "Where can I use my Payroll Credit Card?",
+      "createdTime": "2022-08-31T12:22:36.9372862Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- The Credit card can be used at the ATM, POS and Web.\r\n- Use domestically and internationally; anywhere in the world where the VISA logo is displayed"
+        }
+      },
+      "id": "308b803e-2de7-4128-958b-5f4cc75afdff"
+    }
+  ]
+}

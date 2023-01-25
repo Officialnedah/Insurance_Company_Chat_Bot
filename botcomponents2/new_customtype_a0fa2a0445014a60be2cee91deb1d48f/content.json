@@ -1,0 +1,75 @@
+{
+  "namedEntities": [
+    {
+      "synonyms": [
+        "Standard Savings"
+      ],
+      "id": "31044327-fe51-43ec-9136-836ba61de04b",
+      "displayName": "Standard Savings Account",
+      "createdTime": "2022-08-31T19:57:34.5017952Z",
+      "updatedTime": "2022-08-31T19:57:34.5017952Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "synonyms": [
+        "Undergraduate",
+        "Student Account",
+        "Undergraduate (Student)"
+      ],
+      "id": "bec7debd-8909-4816-a31d-d197766903db",
+      "displayName": "Undergraduate (Student) Account",
+      "createdTime": "2022-08-31T19:57:34.5017952Z",
+      "updatedTime": "2022-08-31T19:57:34.5017952Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "synonyms": [
+        "Bright Kids"
+      ],
+      "id": "c6216d63-2fec-4102-8663-62f30e22e11c",
+      "displayName": "Bright Kids Account",
+      "createdTime": "2022-08-31T19:57:34.5017952Z",
+      "updatedTime": "2022-08-31T19:57:34.5017952Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "id": "47abf127-3de0-4e7a-a64a-6364770a8d4c",
+      "displayName": "FLIP Account",
+      "createdTime": "2022-08-31T19:57:34.5017952Z",
+      "updatedTime": "2022-08-31T19:57:34.5017952Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "id": "fa2d7f5b-6d58-499a-a81a-9e92179d82c7",
+      "displayName": "FOREIGN EXCHANGE ACCOUNTS",
+      "createdTime": "2022-08-31T19:57:34.5017952Z",
+      "updatedTime": "2022-08-31T19:57:34.5017952Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ],
+  "closedListTypes": [
+    {
+      "namedEntities": [
+        "31044327-fe51-43ec-9136-836ba61de04b",
+        "bec7debd-8909-4816-a31d-d197766903db",
+        "c6216d63-2fec-4102-8663-62f30e22e11c",
+        "47abf127-3de0-4e7a-a64a-6364770a8d4c",
+        "fa2d7f5b-6d58-499a-a81a-9e92179d82c7"
+      ],
+      "smartMatchingEnabled": true,
+      "customTypeSchema": "ClosedList",
+      "id": "new_customtype_a0fa2a0445014a60be2cee91deb1d48f",
+      "displayName": "Types of Savings Accounts",
+      "description": "",
+      "createdTime": "2022-08-31T19:57:34.5017952Z",
+      "updatedTime": "2022-08-31T19:57:34.5017952Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ]
+}

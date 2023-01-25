@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "loan interest",
+        "loan charge",
+        "interest",
+        "interest charge",
+        "What is the interest charge on Fidelity Fast & Easy Loan?"
+      ],
+      "dialogId": "new_topic_265efbf807f64848a329bec525823649",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_265efbf807f64848a329bec525823649",
+      "displayName": "Loan interest charge",
+      "createdTime": "2022-08-31T14:20:06.4186836Z",
+      "updatedTime": "2022-11-28T12:54:22.8594023Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "4c819cad-2d51-4cc1-a81a-295ad9d0b03a",
+      "messageNodes": [
+        {
+          "botMessageId": "ea2a1324-9ee7-46a3-b6d4-d065afe3a29c",
+          "nodeType": "BotMessageNode",
+          "id": "4c819cad-2d51-4cc1-a81a-295ad9d0b03a"
+        }
+      ],
+      "id": "new_topic_265efbf807f64848a329bec525823649",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T14:20:06.4186836Z",
+      "updatedTime": "2022-08-31T14:21:22.8157056Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**What is the interest charge on Fidelity Fast & Easy Loan?**\n\nA net interest cost of 10% p.a. will be charged. However, any interest payment on your investment will be added to the interest charge of 10% p.a."
+        }
+      },
+      "id": "ea2a1324-9ee7-46a3-b6d4-d065afe3a29c",
+      "createdTime": "2022-08-31T14:18:48.83Z",
+      "updatedTime": "2022-08-31T14:18:48.83Z"
+    }
+  ]
+}

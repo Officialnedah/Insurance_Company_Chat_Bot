@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "10. How can I register other bank accounts for fund transfer? - General Information - Ans:"
+      ],
+      "dialogId": "new_topic_57e39107325a4f2cbf4a0f56ac645d41",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_57e39107325a4f2cbf4a0f56ac645d41",
+      "displayName": "10. How can I register other bank accounts for fund transfer? - General Information - Ans:",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T12:45:03.5463679Z",
+      "updatedTime": "2022-08-31T12:45:03.5463679Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "5dd6ea2a-759b-4187-8965-02564f8869f1",
+      "messageNodes": [
+        {
+          "botMessageId": "0431a68b-eb8b-4cf5-b272-2906c8acec7b",
+          "nodeType": "BotMessageNode",
+          "id": "5dd6ea2a-759b-4187-8965-02564f8869f1",
+          "defaultTargetNodeId": "70ac9788-a21b-4a91-80d6-da8790860114"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "70ac9788-a21b-4a91-80d6-da8790860114"
+        }
+      ],
+      "id": "new_topic_57e39107325a4f2cbf4a0f56ac645d41",
+      "displayName": "10. How can I register other bank accounts for fund transfer? - General Information - Ans:",
+      "createdTime": "2022-08-31T12:44:32.846079Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**10.  How can I register other bank accounts for fund transfer?**\r\n  \r\n\r\nAns: If you would like to register other bank accounts for fund transfer, please visit our branch for processing or please fill in form(the form can be downloaded from the Bank’s website) and send the form to our branch by post for processing.You can register by yourself after login the internet banking if you have registered two-factor authentication service."
+        }
+      },
+      "id": "0431a68b-eb8b-4cf5-b272-2906c8acec7b"
+    }
+  ]
+}

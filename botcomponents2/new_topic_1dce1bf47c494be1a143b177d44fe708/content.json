@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "2. How can I apply for the e-Statement services? - e-Statement - Ans: - Loan - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_1dce1bf47c494be1a143b177d44fe708",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_1dce1bf47c494be1a143b177d44fe708",
+      "displayName": "2. How can I apply for the e-Statement services? - e-Statement - Ans: - Loan - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T12:49:35.7753873Z",
+      "updatedTime": "2022-11-28T12:29:31.6718716Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "3f4c7f7c-05d2-43e7-adbd-3246387560b9",
+      "messageNodes": [
+        {
+          "botMessageId": "7aef8f57-bdc1-4edf-8144-44be3969c269",
+          "nodeType": "BotMessageNode",
+          "id": "3f4c7f7c-05d2-43e7-adbd-3246387560b9",
+          "defaultTargetNodeId": "7afb0787-a203-4054-aea2-548f5f604a77"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "7afb0787-a203-4054-aea2-548f5f604a77"
+        }
+      ],
+      "id": "new_topic_1dce1bf47c494be1a143b177d44fe708",
+      "displayName": "2. How can I apply for the e-Statement services? - e-Statement - Ans: - Loan - Personal Internet Banking",
+      "createdTime": "2022-08-31T12:49:20.611642Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**2.  How can I apply for the e-Statement services?**\r\n  \r\n\r\nAns: You can visit any of the branches for application. Or apply on Personal Internet Banking under \"e-Statement\">\"Apply for/Cancel e-Statement\" in horizontal menu, or under \"Electronic Services\">\"e-Statement\">\"Apply for/Cancel e-Statement\" in vertical menu."
+        }
+      },
+      "id": "7aef8f57-bdc1-4edf-8144-44be3969c269"
+    }
+  ]
+}

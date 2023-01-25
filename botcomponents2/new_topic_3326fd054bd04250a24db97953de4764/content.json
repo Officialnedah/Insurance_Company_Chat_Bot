@@ -1,0 +1,50 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "maximum loan amount",
+        "minimum loan amount",
+        "What is the minimum and maximum loan amount I can borrow?"
+      ],
+      "dialogId": "new_topic_3326fd054bd04250a24db97953de4764",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_3326fd054bd04250a24db97953de4764",
+      "displayName": "minimum and maximum loan amount",
+      "createdTime": "2022-08-31T14:25:53.5163958Z",
+      "updatedTime": "2022-11-28T12:54:20.6825647Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "479afa4b-8612-4f19-a37b-1a6239e9cf62",
+      "messageNodes": [
+        {
+          "botMessageId": "2df62612-a3c0-4cfa-986b-e235d809d697",
+          "nodeType": "BotMessageNode",
+          "id": "479afa4b-8612-4f19-a37b-1a6239e9cf62"
+        }
+      ],
+      "id": "new_topic_3326fd054bd04250a24db97953de4764",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T14:25:53.5163958Z",
+      "updatedTime": "2022-08-31T14:25:53.5163958Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**What is the minimum and maximum loan amount I can borrow?** \n\nMinimum loan amount is GHC2, 000 or USD1,000 Maximum loan amount is GHC50 million or its equivalent in USD (Your loan amount is determined by the value of your cash collateral.)"
+        }
+      },
+      "id": "2df62612-a3c0-4cfa-986b-e235d809d697",
+      "createdTime": "2022-08-31T14:24:49.321Z",
+      "updatedTime": "2022-08-31T14:24:49.321Z"
+    }
+  ]
+}

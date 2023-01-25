@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "What are the services available from your Internet Banking Service? - General Information - Ans:"
+      ],
+      "dialogId": "new_topic_14bf92d5eddb4b6a9900273b816b493a",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_14bf92d5eddb4b6a9900273b816b493a",
+      "displayName": "What are the services available from your Internet Banking Service? - General Information - Ans:",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T13:00:34.8731743Z",
+      "updatedTime": "2022-11-28T13:27:32.6680455Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "b7ebf3a6-c8b0-4b44-adc6-254010a2dfa6",
+      "messageNodes": [
+        {
+          "botMessageId": "6ff73e85-9c9d-4d27-8bc5-8b514074916b",
+          "nodeType": "BotMessageNode",
+          "id": "b7ebf3a6-c8b0-4b44-adc6-254010a2dfa6",
+          "defaultTargetNodeId": "6c2e5984-397c-4dc0-a863-33b106215f48"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "6c2e5984-397c-4dc0-a863-33b106215f48"
+        }
+      ],
+      "id": "new_topic_14bf92d5eddb4b6a9900273b816b493a",
+      "displayName": "What are the services available from your Internet Banking Service? - General Information - Ans:",
+      "createdTime": "2022-08-31T12:58:39.3786222Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**What are the services available from your Internet Banking Service?**\r\n  \r\n\r\nAns:Internet Banking Service offers you the following services,\r\n  \r\n\r\n- Account Services\r\n- Payment\r\n- Account Maintenance\r\n- Applications\r\n- Rates Enquiry\r\n- Message Box\r\n- Investment Services\r\n- Credit Card Services\r\n- Remittance Services\r\n- Insurance Services, etc."
+        }
+      },
+      "id": "6ff73e85-9c9d-4d27-8bc5-8b514074916b"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "commercial customer",
+        "Business owners",
+        "Can commercial customers or business owners access the Fidelity Fast & easy Loan?"
+      ],
+      "dialogId": "new_topic_3f2298c4ba8a4b31a58a1ed182272a2b",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_3f2298c4ba8a4b31a58a1ed182272a2b",
+      "displayName": "Business Owners and Commercial Customers",
+      "createdTime": "2022-08-31T14:30:39.1448918Z",
+      "updatedTime": "2022-11-28T12:54:12.1697451Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "5a7074e3-3094-419f-b668-ca416cf42c67",
+      "messageNodes": [
+        {
+          "botMessageId": "08a4e13d-beb6-423d-b952-666645c0f4e4",
+          "nodeType": "BotMessageNode",
+          "id": "5a7074e3-3094-419f-b668-ca416cf42c67"
+        }
+      ],
+      "id": "new_topic_3f2298c4ba8a4b31a58a1ed182272a2b",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T14:30:39.1448918Z",
+      "updatedTime": "2022-08-31T14:31:26.100757Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Can commercial customers or business owners access the Fidelity Fast & easy Loan?**\n\nYes. However, they can only borrow in their own personal capacity with cash collateral in their personal account. In exceptional cases, commercial entities may be allowed to access the Fidelity Fast & Easy loan. This should be discussed with your Branch Manger."
+        }
+      },
+      "id": "08a4e13d-beb6-423d-b952-666645c0f4e4",
+      "createdTime": "2022-08-31T14:29:27.02Z",
+      "updatedTime": "2022-08-31T14:29:27.02Z"
+    }
+  ]
+}

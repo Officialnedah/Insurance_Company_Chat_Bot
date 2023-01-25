@@ -1,0 +1,187 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "Latest  CORPORATE, COMMERCIAL & SME ACCOUNTS tariff",
+        "Latest  CORPORATE tariff plan",
+        "Latest  CORPORATE, SME ACCOUNTS tariff plan",
+        "CORPORATE, COMMERCIAL & SME ACCOUNTS latest tariff plan",
+        "Latest  CORPORATE, COMMERCIAL & SME ACCOUNTS tariff plan"
+      ],
+      "dialogId": "new_topic_546fdeb08a934d5ea699210272f19751",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_546fdeb08a934d5ea699210272f19751",
+      "displayName": "CORPORATE, COMMERCIAL & SME ACCOUNT Tariff guide",
+      "createdTime": "2022-08-31T19:34:16.7186691Z",
+      "updatedTime": "2022-11-28T12:53:59.1667334Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "5187e307-f4aa-4340-b531-eb5718a88370",
+      "displayName": "Commercial Current Account"
+    },
+    {
+      "id": "09fa2982-b01b-4b6b-9dc9-e64c7b91247b",
+      "displayName": "Commercial Current Account Plus"
+    },
+    {
+      "id": "cdecda66-cdbf-4802-8359-501aa5b3e1fd",
+      "displayName": "Export Bonus Account"
+    },
+    {
+      "id": "429f6e05-caa1-4b59-a066-333d3729ba8e",
+      "displayName": "Agyapadea Business Account"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "bbb0542c-0ddc-481f-a5a4-644fc0b6bbb7",
+      "messageNodes": [
+        {
+          "botMessageId": "3a88b3a4-2011-4875-b9b3-ee5cdc2946fc",
+          "nodeType": "BotMessageNode",
+          "id": "1e4b35fb-1b87-4903-9151-e35c77e550fd"
+        },
+        {
+          "botMessageId": "4057371f-c802-4bfc-9ed2-97f3e01b18ab",
+          "nodeType": "BotMessageNode",
+          "id": "515c0b43-f320-4396-9a29-e1a153c0f21b"
+        },
+        {
+          "botMessageId": "46715e94-d5d9-4550-bc5f-eb1fad3265e1",
+          "nodeType": "BotMessageNode",
+          "id": "a90c9c8b-e654-4c96-ab79-722bfe894502"
+        },
+        {
+          "botMessageId": "2267ef0f-225a-4e3b-8d43-0bf4b0699ede",
+          "nodeType": "BotMessageNode",
+          "id": "285ebe29-d9c1-43da-9e81-51b070503870"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "29919780-2a63-447f-90ee-6cb47332c866",
+          "nodeType": "QuestionNode",
+          "id": "bbb0542c-0ddc-481f-a5a4-644fc0b6bbb7",
+          "routes": [
+            {
+              "expression": "@equals(parameters('29919780-2a63-447f-90ee-6cb47332c866'), '09fa2982-b01b-4b6b-9dc9-e64c7b91247b')",
+              "targetNodeId": "515c0b43-f320-4396-9a29-e1a153c0f21b"
+            },
+            {
+              "expression": "@equals(parameters('29919780-2a63-447f-90ee-6cb47332c866'), 'cdecda66-cdbf-4802-8359-501aa5b3e1fd')",
+              "targetNodeId": "a90c9c8b-e654-4c96-ab79-722bfe894502"
+            },
+            {
+              "expression": "@equals(parameters('29919780-2a63-447f-90ee-6cb47332c866'), '429f6e05-caa1-4b59-a066-333d3729ba8e')",
+              "targetNodeId": "285ebe29-d9c1-43da-9e81-51b070503870"
+            }
+          ],
+          "defaultTargetNodeId": "1e4b35fb-1b87-4903-9151-e35c77e550fd"
+        }
+      ],
+      "id": "new_topic_546fdeb08a934d5ea699210272f19751",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T19:34:16.7186691Z",
+      "updatedTime": "2022-08-31T19:37:24.9750714Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "what type of account did you want to know more about?"
+        }
+      },
+      "id": "1c84d6b4-8e09-45c2-82e9-3a95d17ea425",
+      "createdTime": "2022-08-31T19:26:01.299Z",
+      "updatedTime": "2022-08-31T19:26:01.299Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Corporate Current Account** **Commission On Turnover**\n\n1.5/mil. with minimum GH¢50  \nMaximum GH¢250"
+        }
+      },
+      "id": "3a88b3a4-2011-4875-b9b3-ee5cdc2946fc",
+      "createdTime": "2022-08-31T19:25:28.078Z",
+      "updatedTime": "2022-08-31T19:25:28.078Z"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** GH¢100.00\n\n**Minimum Operating Balance:** None  \n**Account Maintenance Fee (monthly)\\*:**\n\n*   Debit Turnover up to  \n    GH¢10,000  \n    Debit Turnover above  \n    GH¢30,000 to GH¢150,000\n*   Debit Turnover above 150,000"
+        }
+      },
+      "id": "4057371f-c802-4bfc-9ed2-97f3e01b18ab",
+      "createdTime": "2022-08-31T19:27:54.545Z",
+      "updatedTime": "2022-08-31T19:27:54.545Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** GH¢100.00\n\n**Minimum Operating Balance:** None\n\n  \n**Account Maintenance Fee (monthly)**: None"
+        }
+      },
+      "id": "46715e94-d5d9-4550-bc5f-eb1fad3265e1",
+      "createdTime": "2022-08-31T19:31:10.115Z",
+      "updatedTime": "2022-08-31T19:31:10.115Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** GH¢50  \n**Account Maintenance Fee (monthly):** GH¢20"
+        }
+      },
+      "id": "2267ef0f-225a-4e3b-8d43-0bf4b0699ede",
+      "createdTime": "2022-08-31T19:32:12.773Z",
+      "updatedTime": "2022-08-31T19:32:12.773Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "5187e307-f4aa-4340-b531-eb5718a88370",
+        "09fa2982-b01b-4b6b-9dc9-e64c7b91247b",
+        "cdecda66-cdbf-4802-8359-501aa5b3e1fd",
+        "429f6e05-caa1-4b59-a066-333d3729ba8e"
+      ],
+      "messages": {
+        "GetValue": [
+          "1c84d6b4-8e09-45c2-82e9-3a95d17ea425"
+        ]
+      },
+      "isGlobal": false,
+      "id": "29919780-2a63-447f-90ee-6cb47332c866",
+      "displayName": "Var",
+      "createdTime": "2022-08-31T19:34:16.7186691Z",
+      "updatedTime": "2022-08-31T19:37:24.9750714Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ]
+}

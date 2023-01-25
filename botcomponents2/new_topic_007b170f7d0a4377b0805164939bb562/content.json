@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "4. Can I cancel e-Statement service? - e-Statement - Ans: - Loan - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_007b170f7d0a4377b0805164939bb562",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_007b170f7d0a4377b0805164939bb562",
+      "displayName": "4. Can I cancel e-Statement service? - e-Statement - Ans: - Loan - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T12:49:59.9714762Z",
+      "updatedTime": "2022-11-28T13:27:19.6054234Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "8a8685a6-4767-4710-a7ed-fb51420415b7",
+      "messageNodes": [
+        {
+          "botMessageId": "1bd9de84-97b1-4589-a11e-204adad65647",
+          "nodeType": "BotMessageNode",
+          "id": "8a8685a6-4767-4710-a7ed-fb51420415b7",
+          "defaultTargetNodeId": "340c3081-e449-4640-984b-949fb767de7f"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "340c3081-e449-4640-984b-949fb767de7f"
+        }
+      ],
+      "id": "new_topic_007b170f7d0a4377b0805164939bb562",
+      "displayName": "4. Can I cancel e-Statement service? - e-Statement - Ans: - Loan - Personal Internet Banking",
+      "createdTime": "2022-08-31T12:49:54.0004338Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**4.  Can I cancel e-Statement service?**\r\n  \r\n\r\nAns: Yes. You can cancel e-Statement service via Internet Banking or visit any of our branches in person. After cancel the e-Statement service, our bank will resume delivery of the printed copy of the consolidated statement to your registered mail address."
+        }
+      },
+      "id": "1bd9de84-97b1-4589-a11e-204adad65647"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "namedEntities": [
+    {
+      "id": "fc2ae79a-63f2-49fb-ac4d-57964e3016d9",
+      "displayName": "PERSONAL ACCOUNTS",
+      "createdTime": "2022-08-31T19:51:34.6716887Z",
+      "updatedTime": "2022-08-31T19:51:34.6716887Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "id": "8b894c66-a111-4c85-873b-c919877d80b3",
+      "displayName": "PRESTIGE BANKING ACCOUNTS",
+      "createdTime": "2022-08-31T19:51:34.6716887Z",
+      "updatedTime": "2022-08-31T19:51:34.6716887Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "id": "f6e38ddf-679c-4e78-a38b-e8140dd3c762",
+      "displayName": "CORPORATE, COMMERCIAL & SME ACCOUNTS",
+      "createdTime": "2022-08-31T19:51:34.6716887Z",
+      "updatedTime": "2022-08-31T19:51:34.6716887Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ],
+  "closedListTypes": [
+    {
+      "namedEntities": [
+        "fc2ae79a-63f2-49fb-ac4d-57964e3016d9",
+        "8b894c66-a111-4c85-873b-c919877d80b3",
+        "f6e38ddf-679c-4e78-a38b-e8140dd3c762"
+      ],
+      "smartMatchingEnabled": true,
+      "customTypeSchema": "ClosedList",
+      "id": "new_customtype_a815bfcd7a664b609115324db015293b",
+      "displayName": "account Types",
+      "description": "",
+      "createdTime": "2022-08-31T19:51:34.6716887Z",
+      "updatedTime": "2022-08-31T19:51:34.6716887Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ]
+}

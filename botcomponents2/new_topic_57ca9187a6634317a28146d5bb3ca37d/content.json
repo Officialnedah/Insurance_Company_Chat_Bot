@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "Can I apply your bank's Credit Card instantly via Internet Banking Services? - Credit Card - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_57ca9187a6634317a28146d5bb3ca37d",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_57ca9187a6634317a28146d5bb3ca37d",
+      "displayName": "Can I apply your bank's Credit Card instantly via Internet Banking Services? - Credit Card - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T13:02:11.8118941Z",
+      "updatedTime": "2022-11-28T12:55:02.3446548Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "09b1ba14-cc89-4e8d-be79-67b3ad10bcfd",
+      "messageNodes": [
+        {
+          "botMessageId": "93df479e-c0d6-4ee2-9279-41891cd90321",
+          "nodeType": "BotMessageNode",
+          "id": "09b1ba14-cc89-4e8d-be79-67b3ad10bcfd",
+          "defaultTargetNodeId": "cbd184ba-ee5c-433e-b125-5a7b85d35286"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "cbd184ba-ee5c-433e-b125-5a7b85d35286"
+        }
+      ],
+      "id": "new_topic_57ca9187a6634317a28146d5bb3ca37d",
+      "displayName": "Can I apply your bank's Credit Card instantly via Internet Banking Services? - Credit Card - Personal Internet Banking",
+      "createdTime": "2022-08-31T13:01:35.782563Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Can I apply your bank's Credit Card instantly via Internet Banking Services?**\r\n  \r\n\r\nAns: Yes. You can login to our bank's Personal Internet Banking services, and select “Card”>”Credit Card Application”>”Credit Card Application.”"
+        }
+      },
+      "id": "93df479e-c0d6-4ee2-9279-41891cd90321"
+    }
+  ]
+}

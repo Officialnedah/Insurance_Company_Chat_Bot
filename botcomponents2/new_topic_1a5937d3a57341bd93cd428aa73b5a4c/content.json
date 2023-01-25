@@ -1,0 +1,431 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "latest Tariff guide for personal account",
+        "personal account tariff guide",
+        "Latest Tariff guide for personal account",
+        "Tariff guide for personal account"
+      ],
+      "dialogId": "new_topic_1a5937d3a57341bd93cd428aa73b5a4c",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_1a5937d3a57341bd93cd428aa73b5a4c",
+      "displayName": "personal account tariff guide",
+      "createdTime": "2022-08-31T18:38:54.381378Z",
+      "updatedTime": "2022-11-28T13:28:06.91837Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "d944e03c-e2f4-43e0-a22a-ca8dd5522667",
+      "displayName": "CURRENT ACCOUNTS"
+    },
+    {
+      "id": "a548c3aa-5212-4c9e-9936-94620028da5c",
+      "displayName": "SAVINGS ACCOUNTS"
+    },
+    {
+      "id": "f69320b4-5300-4e90-9029-6aeebfce0960",
+      "displayName": "Standard Savings Account"
+    },
+    {
+      "id": "ff1a2618-e79b-4e8b-af1e-494996a5f3ec",
+      "displayName": "Undergraduate (Student) Account"
+    },
+    {
+      "id": "52689011-6740-476c-8ddf-a263a901ca6e",
+      "displayName": "Bright Kids Account"
+    },
+    {
+      "id": "979a6e51-c627-4ebd-be90-98b40d8ae8c6",
+      "displayName": "FLIP Account"
+    },
+    {
+      "id": "e1b8d5a5-0ba8-4b13-9d14-1bded09655cc",
+      "displayName": "FOREIGN EXCHANGE ACCOUNTS"
+    },
+    {
+      "id": "71cb897b-73af-4a80-8025-32f81e4055d2",
+      "displayName": "Standard Current Account"
+    },
+    {
+      "id": "94b28420-3b41-478d-ae14-87b19796f297",
+      "displayName": "Paycheck Plus Account"
+    },
+    {
+      "id": "07abbdb6-2cff-499d-934e-f83bc5d1e55f",
+      "displayName": "Paycheck Prime Account"
+    },
+    {
+      "id": "2cc41839-6b95-441a-91a7-7f07be2058be",
+      "displayName": "EDWAPA ACCOUNT"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "1b8c7770-5380-46ce-b9a6-427c13996489",
+      "messageNodes": [
+        {
+          "botMessageId": "59baa923-52a4-45cd-af74-c7dd278f0d1b",
+          "nodeType": "BotMessageNode",
+          "id": "4fb5af27-72f3-49c1-831f-c31b11896808"
+        },
+        {
+          "botMessageId": "b8702564-d38f-4bbf-9393-f09e19cff311",
+          "nodeType": "BotMessageNode",
+          "id": "130a1459-5b28-4f37-9644-548cb90f887b"
+        },
+        {
+          "botMessageId": "eb544bd4-ef6b-44ff-9191-45ca4cded160",
+          "nodeType": "BotMessageNode",
+          "id": "06571613-515b-462e-8d74-c289d43cd587"
+        },
+        {
+          "botMessageId": "ef4d67a6-a63e-45e3-b0da-2812ed86ef16",
+          "nodeType": "BotMessageNode",
+          "id": "e2d12416-7e72-4d09-bce0-ea174878cd9c"
+        },
+        {
+          "botMessageId": "1232278b-bd22-413a-9f44-630d7969baeb",
+          "nodeType": "BotMessageNode",
+          "id": "7d0cf4b4-95ee-4525-bb58-e421230df4d6"
+        },
+        {
+          "botMessageId": "fe753820-7a9c-43dd-9536-b4febd75059c",
+          "nodeType": "BotMessageNode",
+          "id": "885dc412-c5ca-4e25-9c1f-5a59debd84e5"
+        },
+        {
+          "botMessageId": "b88690f1-133c-403c-90f8-f9bff2bdf2b9",
+          "nodeType": "BotMessageNode",
+          "id": "4f87423d-f149-4f9c-bca0-43411660204a"
+        },
+        {
+          "botMessageId": "3859b775-5b5c-4486-8b88-14e2c982eee3",
+          "nodeType": "BotMessageNode",
+          "id": "ce1732b2-3e17-496b-84ae-c22c5cf1e4d6"
+        },
+        {
+          "botMessageId": "f32416b4-907f-4043-b454-cac6119dd08f",
+          "nodeType": "BotMessageNode",
+          "id": "2e9114f0-d686-43dd-964c-fd3e023a953f"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "067f3ee1-f741-444c-a2e2-6fc03b8bef50",
+          "nodeType": "QuestionNode",
+          "id": "1b8c7770-5380-46ce-b9a6-427c13996489",
+          "routes": [
+            {
+              "expression": "@equals(parameters('067f3ee1-f741-444c-a2e2-6fc03b8bef50'), 'a548c3aa-5212-4c9e-9936-94620028da5c')",
+              "targetNodeId": "db9b5135-c8d1-4d15-8cb7-84401e95d983"
+            },
+            {
+              "expression": "@equals(parameters('067f3ee1-f741-444c-a2e2-6fc03b8bef50'), 'd944e03c-e2f4-43e0-a22a-ca8dd5522667')",
+              "targetNodeId": "096374c0-5ebb-44c7-ad82-d73431e7ef3f"
+            }
+          ],
+          "defaultTargetNodeId": "1b8c7770-5380-46ce-b9a6-427c13996489"
+        },
+        {
+          "contextVariableId": "b532741f-99a1-43a8-845f-b72a1c076518",
+          "nodeType": "QuestionNode",
+          "id": "db9b5135-c8d1-4d15-8cb7-84401e95d983",
+          "routes": [
+            {
+              "expression": "@equals(parameters('b532741f-99a1-43a8-845f-b72a1c076518'), 'f69320b4-5300-4e90-9029-6aeebfce0960')",
+              "targetNodeId": "4fb5af27-72f3-49c1-831f-c31b11896808"
+            },
+            {
+              "expression": "@equals(parameters('b532741f-99a1-43a8-845f-b72a1c076518'), 'ff1a2618-e79b-4e8b-af1e-494996a5f3ec')",
+              "targetNodeId": "130a1459-5b28-4f37-9644-548cb90f887b"
+            },
+            {
+              "expression": "@equals(parameters('b532741f-99a1-43a8-845f-b72a1c076518'), '52689011-6740-476c-8ddf-a263a901ca6e')",
+              "targetNodeId": "06571613-515b-462e-8d74-c289d43cd587"
+            },
+            {
+              "expression": "@equals(parameters('b532741f-99a1-43a8-845f-b72a1c076518'), '979a6e51-c627-4ebd-be90-98b40d8ae8c6')",
+              "targetNodeId": "e2d12416-7e72-4d09-bce0-ea174878cd9c"
+            },
+            {
+              "expression": "@equals(parameters('b532741f-99a1-43a8-845f-b72a1c076518'), 'e1b8d5a5-0ba8-4b13-9d14-1bded09655cc')",
+              "targetNodeId": "7d0cf4b4-95ee-4525-bb58-e421230df4d6"
+            }
+          ],
+          "defaultTargetNodeId": "db9b5135-c8d1-4d15-8cb7-84401e95d983"
+        },
+        {
+          "contextVariableId": "3ecba615-ed5d-4ad6-be9b-dc409d55b4d0",
+          "nodeType": "QuestionNode",
+          "id": "096374c0-5ebb-44c7-ad82-d73431e7ef3f",
+          "routes": [
+            {
+              "expression": "@equals(parameters('3ecba615-ed5d-4ad6-be9b-dc409d55b4d0'), '71cb897b-73af-4a80-8025-32f81e4055d2')",
+              "targetNodeId": "885dc412-c5ca-4e25-9c1f-5a59debd84e5"
+            },
+            {
+              "expression": "@equals(parameters('3ecba615-ed5d-4ad6-be9b-dc409d55b4d0'), '94b28420-3b41-478d-ae14-87b19796f297')",
+              "targetNodeId": "4f87423d-f149-4f9c-bca0-43411660204a"
+            },
+            {
+              "expression": "@equals(parameters('3ecba615-ed5d-4ad6-be9b-dc409d55b4d0'), '07abbdb6-2cff-499d-934e-f83bc5d1e55f')",
+              "targetNodeId": "ce1732b2-3e17-496b-84ae-c22c5cf1e4d6"
+            },
+            {
+              "expression": "@equals(parameters('3ecba615-ed5d-4ad6-be9b-dc409d55b4d0'), '2cc41839-6b95-441a-91a7-7f07be2058be')",
+              "targetNodeId": "2e9114f0-d686-43dd-964c-fd3e023a953f"
+            }
+          ],
+          "defaultTargetNodeId": "096374c0-5ebb-44c7-ad82-d73431e7ef3f"
+        }
+      ],
+      "id": "new_topic_1a5937d3a57341bd93cd428aa73b5a4c",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T18:38:54.381378Z",
+      "updatedTime": "2022-08-31T19:46:57.4467246Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "what account type do wanted to find out more about"
+        }
+      },
+      "id": "c1e0085f-f1f2-4b56-80ba-83793527e68f",
+      "createdTime": "2022-08-31T18:28:45.153Z",
+      "updatedTime": "2022-08-31T18:28:45.153Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "SAVING ACCOUNTS TRARIFFS\n\nWHICH TYPE OF SAVINGS ACCOUNT DO YOU WANT TO NOW MORE ABOUT"
+        }
+      },
+      "id": "ec42cfa2-9ee3-4a2f-9e47-807beeb6edc6",
+      "createdTime": "2022-08-31T18:31:53.673Z",
+      "updatedTime": "2022-08-31T18:31:53.673Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "CURRENT ACCOUNTS TRARIFFS\n\nWHICH TYPE OF CURRENT ACCOUNT DO YOU WANT TO NOW MORE ABOUT"
+        }
+      },
+      "id": "8bfb5917-0adf-4491-87fb-5cdf67d89a9c",
+      "createdTime": "2022-08-31T19:01:26.126Z",
+      "updatedTime": "2022-08-31T19:01:26.126Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Tariff for Standard Current Account**\n\n\\*\\*Minimum Opening Amount: \\*\\* GH¢50.00  \n**Minimum Operating Balance:** None  \n**Account Maintenance Fee (monthly):** GH¢12.00"
+        }
+      },
+      "id": "59baa923-52a4-45cd-af74-c7dd278f0d1b",
+      "createdTime": "2022-08-31T18:34:39.001Z",
+      "updatedTime": "2022-08-31T18:34:39.001Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount :** GH¢10.00\n\n**Minimum Operating Balance:** GH¢10.00\n\n**Interest Earned on Account:** Up to 5% per annum (Tiered)\n\n**Account Maintenance Fee (monthly):** Free\n\n**Visa Classic Card:** Free (first Visa card issue only)"
+        }
+      },
+      "id": "b8702564-d38f-4bbf-9393-f09e19cff311",
+      "createdTime": "2022-08-31T18:45:45.7Z",
+      "updatedTime": "2022-08-31T18:45:45.7Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** GH¢50.00\n\n**Minimum Operating Balance:** GH¢50.00\n\n**Interest Earned on Account:** Up to 6% (Tiered)\n\n**Withdrawal:** 1 Withdrawal per month after  \n6 months of opening account\n\n**Account Maintenance Fee (monthly):** Free"
+        }
+      },
+      "id": "eb544bd4-ef6b-44ff-9191-45ca4cded160",
+      "createdTime": "2022-08-31T18:48:14.117Z",
+      "updatedTime": "2022-08-31T18:48:14.117Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** GH¢50.00\n\n**Minimum Operating Balance:** GH¢50.00\n\n**Minimum Investment Period:** 36 months (3 years) renewable"
+        }
+      },
+      "id": "ef4d67a6-a63e-45e3-b0da-2812ed86ef16",
+      "createdTime": "2022-08-31T18:56:27.783Z",
+      "updatedTime": "2022-08-31T18:56:27.783Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** USD($)50.00; GBP(£)50.00; EUR(€)50.00\n\n_Depending on currency type_\n\n**Minimum Operating Balance:** USD($)50.00; GBP(£)50.00; EUR(€)50.00\n\n**Interest Earned on Account:** None\n\n**Account Maintenance Fee (monthly):** None\n\n**Withdrawal Charge (Offshore Funds):** 3% of amount\n\n**Withdrawal Charge (Onshore Funds):** No charge\\*"
+        }
+      },
+      "id": "1232278b-bd22-413a-9f44-630d7969baeb",
+      "createdTime": "2022-08-31T18:57:44.914Z",
+      "updatedTime": "2022-08-31T18:57:44.914Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** GH¢50.00\n\n**Minimum Operating Balance::** None\n\n**Account Maintenance Fee (monthly):** GH¢12.00"
+        }
+      },
+      "id": "fe753820-7a9c-43dd-9536-b4febd75059c",
+      "createdTime": "2022-08-31T19:04:05.708Z",
+      "updatedTime": "2022-08-31T19:04:05.708Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** GH¢50\n\n**Minimum Operating Balance:** None\n\n**Bundled Account Service Fee (monthly):** GH¢15"
+        }
+      },
+      "id": "b88690f1-133c-403c-90f8-f9bff2bdf2b9",
+      "createdTime": "2022-08-31T19:05:15.568Z",
+      "updatedTime": "2022-08-31T19:05:15.568Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount :** GH¢100\n\n**Minimum Operating Balance:** None\n\n  \n**Bundled Account Service Fee : (monthly):** GH¢22"
+        }
+      },
+      "id": "3859b775-5b5c-4486-8b88-14e2c982eee3",
+      "createdTime": "2022-08-31T19:06:44.466Z",
+      "updatedTime": "2022-08-31T19:06:44.466Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** GH¢50\n\n  \n**Minimum Operating Balance:** GH¢50\n\n  \n**Bundled Account Service Fee (monthly):** GH¢20"
+        }
+      },
+      "id": "f32416b4-907f-4043-b454-cac6119dd08f",
+      "createdTime": "2022-08-31T19:07:36.345Z",
+      "updatedTime": "2022-08-31T19:07:36.345Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "d944e03c-e2f4-43e0-a22a-ca8dd5522667",
+        "a548c3aa-5212-4c9e-9936-94620028da5c"
+      ],
+      "messages": {
+        "GetValue": [
+          "c1e0085f-f1f2-4b56-80ba-83793527e68f"
+        ]
+      },
+      "isGlobal": false,
+      "id": "067f3ee1-f741-444c-a2e2-6fc03b8bef50",
+      "displayName": "Var",
+      "createdTime": "2022-08-31T18:38:54.381378Z",
+      "updatedTime": "2022-08-31T19:46:57.4467246Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "f69320b4-5300-4e90-9029-6aeebfce0960",
+        "ff1a2618-e79b-4e8b-af1e-494996a5f3ec",
+        "52689011-6740-476c-8ddf-a263a901ca6e",
+        "979a6e51-c627-4ebd-be90-98b40d8ae8c6",
+        "e1b8d5a5-0ba8-4b13-9d14-1bded09655cc"
+      ],
+      "messages": {
+        "GetValue": [
+          "ec42cfa2-9ee3-4a2f-9e47-807beeb6edc6"
+        ]
+      },
+      "isGlobal": false,
+      "id": "b532741f-99a1-43a8-845f-b72a1c076518",
+      "displayName": "Var1",
+      "createdTime": "2022-08-31T18:38:54.381378Z",
+      "updatedTime": "2022-08-31T19:46:57.4467246Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "71cb897b-73af-4a80-8025-32f81e4055d2",
+        "94b28420-3b41-478d-ae14-87b19796f297",
+        "07abbdb6-2cff-499d-934e-f83bc5d1e55f",
+        "2cc41839-6b95-441a-91a7-7f07be2058be"
+      ],
+      "messages": {
+        "GetValue": [
+          "8bfb5917-0adf-4491-87fb-5cdf67d89a9c"
+        ]
+      },
+      "isGlobal": false,
+      "id": "3ecba615-ed5d-4ad6-be9b-dc409d55b4d0",
+      "displayName": "Var2",
+      "createdTime": "2022-08-31T19:01:26.127Z",
+      "updatedTime": "2022-08-31T19:46:57.4467246Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ]
+}

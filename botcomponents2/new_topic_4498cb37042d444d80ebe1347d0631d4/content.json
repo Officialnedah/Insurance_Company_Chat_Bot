@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How can I trade funds online? - Investment - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_4498cb37042d444d80ebe1347d0631d4",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_4498cb37042d444d80ebe1347d0631d4",
+      "displayName": "How can I trade funds online? - Investment - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T13:02:11.8118941Z",
+      "updatedTime": "2022-11-28T13:28:16.9184673Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "ceae2dd2-996b-4e0f-bc95-3d5ec97bfaa7",
+      "messageNodes": [
+        {
+          "botMessageId": "44d3482d-cc6f-45bf-aa79-5ea39a8bb7a9",
+          "nodeType": "BotMessageNode",
+          "id": "ceae2dd2-996b-4e0f-bc95-3d5ec97bfaa7",
+          "defaultTargetNodeId": "ce63f9ae-ecdc-4cc5-bc9e-86d45e9e0fae"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "ce63f9ae-ecdc-4cc5-bc9e-86d45e9e0fae"
+        }
+      ],
+      "id": "new_topic_4498cb37042d444d80ebe1347d0631d4",
+      "displayName": "How can I trade funds online? - Investment - Personal Internet Banking",
+      "createdTime": "2022-08-31T13:01:35.782563Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**How can I trade funds online?**\r\n  \r\n\r\nAns: If you have activated our Personal Internet Banking Service with account auto-registration function enabled, then all accounts (including investment accounts) opened before or thereafter will be automatically included in the account lists of your Personal Internet Banking for your usage. You can then login to Internet Banking to make funds transactions. If you have not subscribed the account auto-registration service, please visit any of our branches to register your investment accounts. After registration, you can make any funds transactions online."
+        }
+      },
+      "id": "44d3482d-cc6f-45bf-aa79-5ea39a8bb7a9"
+    }
+  ]
+}

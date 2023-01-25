@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "13. How long is the e-Cheque validity of the date of issuance? - Bill of Exchange - Ans: - 4. How can I submit “Flexi Assets Financing” application? - Loan - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_27e029ac527045e89bbbe051b49503da",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_27e029ac527045e89bbbe051b49503da",
+      "displayName": "13. How long is the e-Cheque validity of the date of issuance? - Bill of Exchange - Ans: - 4. How can I submit “Flexi Assets Financing” application? - Loan - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T12:49:16.6815981Z",
+      "updatedTime": "2022-08-31T12:49:16.6815981Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "1c64d677-ca81-496c-87ae-8247f20c50f5",
+      "messageNodes": [
+        {
+          "botMessageId": "9659b52e-9cf3-4659-8320-11ae6ae6c7a9",
+          "nodeType": "BotMessageNode",
+          "id": "1c64d677-ca81-496c-87ae-8247f20c50f5",
+          "defaultTargetNodeId": "dc12049d-821d-4cc2-b9c2-8100ae0c91d9"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "dc12049d-821d-4cc2-b9c2-8100ae0c91d9"
+        }
+      ],
+      "id": "new_topic_27e029ac527045e89bbbe051b49503da",
+      "displayName": "13. How long is the e-Cheque validity of the date of issuance? - Bill of Exchange - Ans: - 4. How can I submit “Flexi Assets Financing” application? - Loan - Personal Internet Banking",
+      "createdTime": "2022-08-31T12:49:09.1569245Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**13.  How long is the e-Cheque validity of the date of issuance?**\r\n  \r\n\r\nAns: Consistent with the practise of existing paper cheque, you cannot present the e-Cheque which date of deposit has been issued for six months or longer."
+        }
+      },
+      "id": "9659b52e-9cf3-4659-8320-11ae6ae6c7a9"
+    }
+  ]
+}

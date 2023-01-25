@@ -1,0 +1,189 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "plan",
+        "price of family plan",
+        "family plan",
+        "family",
+        "family care plan"
+      ],
+      "dialogId": "new_topic_2e5313b57a1b46a2b20090eb66e98544",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_2e5313b57a1b46a2b20090eb66e98544",
+      "displayName": "Family Care Plan",
+      "createdTime": "2022-11-28T13:12:15.1292247Z",
+      "updatedTime": "2022-11-28T15:16:57.8168166Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "1b99d3cc-a07c-4097-bff7-0532e281ea4b",
+      "displayName": "YES"
+    },
+    {
+      "id": "7a7b9271-1a5b-4b4d-b105-fe79de2da212",
+      "displayName": "NO"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "2ef12da8-d5a0-4fda-b1e7-253ce6c95d7e",
+      "messageNodes": [
+        {
+          "botMessageId": "9713f52f-a5e9-49b7-a2c4-781389beab58",
+          "nodeType": "BotMessageNode",
+          "id": "2ef12da8-d5a0-4fda-b1e7-253ce6c95d7e",
+          "defaultTargetNodeId": "58a29d2d-57e7-4c46-80ef-6e025e22a049"
+        },
+        {
+          "botMessageId": "be98ee1d-5e76-4177-bd66-7ec51e840f8b",
+          "nodeType": "BotMessageNode",
+          "id": "58a29d2d-57e7-4c46-80ef-6e025e22a049",
+          "defaultTargetNodeId": "f9f88947-0503-423f-88c3-d5a5c2c9d090"
+        },
+        {
+          "botMessageId": "1e1993bf-918b-4cd7-88e2-23c727900f2e",
+          "nodeType": "BotMessageNode",
+          "id": "33bcef25-7f3d-4bce-8292-261133c3048a",
+          "defaultTargetNodeId": "e1b0cb37-ad24-418e-b46f-3406602677e1"
+        },
+        {
+          "botMessageId": "57749f40-8baf-401d-bf5d-93f72244ebd6",
+          "nodeType": "BotMessageNode",
+          "id": "e1b0cb37-ad24-418e-b46f-3406602677e1",
+          "defaultTargetNodeId": "40eed3c9-bbd2-42d1-9a21-6e3a62c78873"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_db1f76b081dc43389df9dd2df7518737_confirmedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "40eed3c9-bbd2-42d1-9a21-6e3a62c78873"
+        },
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_954135cafcd647eaae5999ad91fc08cf_talktoagent",
+          "nodeType": "DialogChangeNode",
+          "id": "2d71e9d5-ee82-4abd-9f69-8e95d27b801c"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "7e54297f-d52f-4c56-80f8-cbe5f8f4092e",
+          "nodeType": "QuestionNode",
+          "id": "f9f88947-0503-423f-88c3-d5a5c2c9d090",
+          "routes": [
+            {
+              "expression": "@equals(parameters('7e54297f-d52f-4c56-80f8-cbe5f8f4092e'), '1b99d3cc-a07c-4097-bff7-0532e281ea4b')",
+              "targetNodeId": "33bcef25-7f3d-4bce-8292-261133c3048a"
+            },
+            {
+              "expression": "@equals(parameters('7e54297f-d52f-4c56-80f8-cbe5f8f4092e'), '7a7b9271-1a5b-4b4d-b105-fe79de2da212')",
+              "targetNodeId": "2d71e9d5-ee82-4abd-9f69-8e95d27b801c"
+            }
+          ],
+          "defaultTargetNodeId": "f9f88947-0503-423f-88c3-d5a5c2c9d090"
+        }
+      ],
+      "id": "new_topic_2e5313b57a1b46a2b20090eb66e98544",
+      "displayName": "Untitled",
+      "createdTime": "2022-11-28T13:12:15.1292247Z",
+      "updatedTime": "2022-11-28T15:16:57.8168166Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Would you like to buy our Family Care Plan"
+        }
+      },
+      "id": "b725f14a-72be-4271-84b1-e027cbbfb170",
+      "createdTime": "2022-11-28T13:17:15.774Z",
+      "updatedTime": "2022-11-28T13:17:15.774Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Our Family Care Funeral Plan will protect yourself, and your family, from the costs associated with an unexpected death in the family."
+        }
+      },
+      "id": "9713f52f-a5e9-49b7-a2c4-781389beab58",
+      "createdTime": "2022-11-28T13:08:01.551Z",
+      "updatedTime": "2022-11-28T13:08:01.551Z"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "The Product benefits of our Family care plan includes:\n\n1\\. Covers Unlimited Plan.\n\n2\\. One Month Premium Holiday Annually.\n\n3\\. Funeral Cover for Family.\n\n4\\. 10% cash back every 2 years.\n\n5\\. Optional Savings Account."
+        }
+      },
+      "id": "be98ee1d-5e76-4177-bd66-7ec51e840f8b",
+      "createdTime": "2022-11-28T13:09:26.01Z",
+      "updatedTime": "2022-11-28T13:09:26.01Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "To buy our Family Care Plan, kindly use the link below.\n\nhttps://newlife.myenterprisegroup.io/products"
+        }
+      },
+      "id": "1e1993bf-918b-4cd7-88e2-23c727900f2e",
+      "createdTime": "2022-11-28T13:18:51.431Z",
+      "updatedTime": "2022-11-28T13:18:51.431Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "For more assistance and enquiries on the Family care Plan, kindly contact us on 0803453645 or visit our nearest office close to you."
+        }
+      },
+      "id": "57749f40-8baf-401d-bf5d-93f72244ebd6",
+      "createdTime": "2022-11-28T13:20:34.717Z",
+      "updatedTime": "2022-11-28T13:20:34.717Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "1b99d3cc-a07c-4097-bff7-0532e281ea4b",
+        "7a7b9271-1a5b-4b4d-b105-fe79de2da212"
+      ],
+      "messages": {
+        "GetValue": [
+          "b725f14a-72be-4271-84b1-e027cbbfb170"
+        ]
+      },
+      "isGlobal": false,
+      "id": "7e54297f-d52f-4c56-80f8-cbe5f8f4092e",
+      "displayName": "Var",
+      "createdTime": "2022-11-28T13:17:15.775Z",
+      "updatedTime": "2022-11-28T15:16:57.8168166Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ]
+}

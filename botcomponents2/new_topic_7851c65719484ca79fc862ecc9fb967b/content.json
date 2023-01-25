@@ -1,0 +1,62 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "Plan",
+        "Do I need a plan?",
+        "Which plan?",
+        "Want to understand what I want?",
+        "Best plan?",
+        "What is the best plan for me?",
+        "Don't know which plan to choose"
+      ],
+      "dialogId": "new_topic_7851c65719484ca79fc862ecc9fb967b",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_7851c65719484ca79fc862ecc9fb967b",
+      "displayName": "Needs analysis",
+      "createdTime": "2022-11-28T14:44:30.9568423Z",
+      "updatedTime": "2022-11-28T15:11:04.4053262Z",
+      "createdUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "355be1d4-fc78-41f5-952b-0da4483ce028",
+      "messageNodes": [
+        {
+          "botMessageId": "a9730b96-374f-4959-9fea-c57e451f14a5",
+          "nodeType": "BotMessageNode",
+          "id": "355be1d4-fc78-41f5-952b-0da4483ce028",
+          "defaultTargetNodeId": "7755c040-2792-43cc-8776-007f9146b278"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "7755c040-2792-43cc-8776-007f9146b278"
+        }
+      ],
+      "id": "new_topic_7851c65719484ca79fc862ecc9fb967b",
+      "displayName": "Untitled",
+      "createdTime": "2022-11-28T14:44:30.9568423Z",
+      "updatedTime": "2022-11-28T15:11:04.4053262Z",
+      "createdUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Not sure what products you need?\n\nGet started with our quick and easy needs analysis, we will ask you a few questions to better understand your specific situation and our automated needs analysis algorithms will recommend exactly what products you need.\n\nClick the link below\n\n[https://newlife.myenterprisegroup.io/needs-analysis/intro](https://newlife.myenterprisegroup.io/needs-analysis/intro)\n\nOr contact us on 0804652853"
+        }
+      },
+      "id": "a9730b96-374f-4959-9fea-c57e451f14a5",
+      "createdTime": "2022-11-28T14:38:56.444Z",
+      "updatedTime": "2022-11-28T14:38:56.444Z"
+    }
+  ]
+}

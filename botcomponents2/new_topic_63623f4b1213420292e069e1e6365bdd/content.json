@@ -1,0 +1,50 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How much loan can I access?",
+        "highest loan limit",
+        "maximum loan"
+      ],
+      "dialogId": "new_topic_63623f4b1213420292e069e1e6365bdd",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_63623f4b1213420292e069e1e6365bdd",
+      "displayName": "loan amount",
+      "createdTime": "2022-08-31T14:16:06.235616Z",
+      "updatedTime": "2022-11-28T12:54:18.6855898Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "91d4543c-39d8-4ab6-a6f0-0932190527ee",
+      "messageNodes": [
+        {
+          "botMessageId": "e9b2e935-31d8-4997-94c2-5ee5b936145d",
+          "nodeType": "BotMessageNode",
+          "id": "91d4543c-39d8-4ab6-a6f0-0932190527ee"
+        }
+      ],
+      "id": "new_topic_63623f4b1213420292e069e1e6365bdd",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T14:16:06.235616Z",
+      "updatedTime": "2022-08-31T14:27:10.1497963Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**How much loan can I access?** \n\nFidelity Bank will lend you its money up to 90% of your cash deposit."
+        }
+      },
+      "id": "e9b2e935-31d8-4997-94c2-5ee5b936145d",
+      "createdTime": "2022-08-31T14:14:33.615Z",
+      "updatedTime": "2022-08-31T14:14:33.615Z"
+    }
+  ]
+}

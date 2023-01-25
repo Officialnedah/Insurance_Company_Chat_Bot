@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I apply for a refund?"
+      ],
+      "dialogId": "new_topic_25058bd7656040feb688674f3a95462e",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_25058bd7656040feb688674f3a95462e",
+      "displayName": "How do I apply for a refund?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:29:39.6468472Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "023dc732-d60f-447d-ad61-ee001bb67b17",
+      "messageNodes": [
+        {
+          "botMessageId": "bcf56691-3740-4f87-a8a2-1dc7e4b788f5",
+          "nodeType": "BotMessageNode",
+          "id": "023dc732-d60f-447d-ad61-ee001bb67b17",
+          "defaultTargetNodeId": "9a9be991-f0ab-4f66-9a59-c4d69f44a816"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "9a9be991-f0ab-4f66-9a59-c4d69f44a816"
+        }
+      ],
+      "id": "new_topic_25058bd7656040feb688674f3a95462e",
+      "displayName": "How do I apply for a refund?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Completion of a benefit request form at the office or an email to cs.lifeng@enterprisegroup.com.gh(payment made only into deduction account for request via email)\r\n- A copy of the client's ID (National ID, voters' ID, driver's license, or International passport) must be attached to the request. Officer must confirm in writing that the original ID has been seen.\r\n- A copy of the proof of overpayment or wrongful deduction may be attached to the request form"
+        }
+      },
+      "id": "bcf56691-3740-4f87-a8a2-1dc7e4b788f5"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "3. Can I settle my credit card bills of the Bank / other banks through your Internet Banking Service? - Payment - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_13c5b63598904be4a540e203281e72b0",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_13c5b63598904be4a540e203281e72b0",
+      "displayName": "3. Can I settle my credit card bills of the Bank / other banks through your Internet Banking Service? - Payment - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T13:02:11.8118941Z",
+      "updatedTime": "2022-11-28T12:55:03.8548552Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "e7f3267d-ee92-4589-86a1-7391f8fb1204",
+      "messageNodes": [
+        {
+          "botMessageId": "d406046e-134d-4d27-a46c-d5a64f933b12",
+          "nodeType": "BotMessageNode",
+          "id": "e7f3267d-ee92-4589-86a1-7391f8fb1204",
+          "defaultTargetNodeId": "36bc2990-89c8-4f90-8ffe-700e60827354"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "36bc2990-89c8-4f90-8ffe-700e60827354"
+        }
+      ],
+      "id": "new_topic_13c5b63598904be4a540e203281e72b0",
+      "displayName": "3. Can I settle my credit card bills of the Bank / other banks through your Internet Banking Service? - Payment - Personal Internet Banking",
+      "createdTime": "2022-08-31T13:01:35.782563Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**3.  Can I settle my credit card bills of the Bank / other banks through your Internet Banking Service?**\r\n  \r\n\r\nAns:Yes, you can pay bills of any of the credit card merchants listed on JET PAYMENT. Settling bills of unregistered credit card accounts is a high risk transaction which needs two-factor authentication tool to complete the transactions, if the bill payments exceed the Small-value Fund Transfer limit. On the other hand, settling bills of registered credit card accounts does not require two-factor authentication tool for transactions. You can access JET PAYMENT webpage (select “Hong Kong” > “Credit Card payment”) for the Internet Bill Payment Merchant List."
+        }
+      },
+      "id": "d406046e-134d-4d27-a46c-d5a64f933b12"
+    }
+  ]
+}

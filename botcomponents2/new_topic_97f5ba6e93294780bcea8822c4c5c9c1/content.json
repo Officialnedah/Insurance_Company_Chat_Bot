@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "ATM pin",
+        "atm pin",
+        "atm",
+        "2. Can I request for the ATM Pin of my Credit Card via Internet Banking? - Credit Card - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_97f5ba6e93294780bcea8822c4c5c9c1",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_97f5ba6e93294780bcea8822c4c5c9c1",
+      "displayName": "Can I request for the ATM Pin of my Credit Card via Internet Banking? - Credit Card - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T13:02:11.8118941Z",
+      "updatedTime": "2022-11-28T12:53:44.8072116Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "602e151f-f871-41c0-b295-22dd1c6fdf49",
+      "messageNodes": [
+        {
+          "botMessageId": "dc8b6afa-4a7f-4897-9301-ce1aa2cbab4e",
+          "nodeType": "BotMessageNode",
+          "id": "602e151f-f871-41c0-b295-22dd1c6fdf49",
+          "defaultTargetNodeId": "912f2195-5172-42e4-939a-c25c7ec103cf"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "912f2195-5172-42e4-939a-c25c7ec103cf"
+        }
+      ],
+      "id": "new_topic_97f5ba6e93294780bcea8822c4c5c9c1",
+      "displayName": "2. Can I request for the ATM Pin of my Credit Card via Internet Banking? - Credit Card - Personal Internet Banking",
+      "createdTime": "2022-08-31T13:01:35.782563Z",
+      "updatedTime": "2022-08-31T15:52:32.0061506Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Can I request for the ATM Pin of my Credit Card via Internet Banking?**\n\nAns: Yes. You can login to our Bank's Internet Banking system and select “Card”>”My Card”>”Credit Card’s ATM PIN Application.” Accordingly, input the required details and confirm the application. After your instruction is received, the PIN will be sent to your registered address on next working day by mail.\n\nAns: Yes, you can enroll in the Travel Insurance anytime through Internet Banking Service."
+        }
+      },
+      "id": "dc8b6afa-4a7f-4897-9301-ce1aa2cbab4e"
+    }
+  ]
+}

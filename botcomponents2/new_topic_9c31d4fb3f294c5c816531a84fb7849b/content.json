@@ -1,0 +1,136 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "PRESTIGE BANKING ACCOUNTS latest tariff",
+        "Latest PRESTIGE BANKING ACCOUNTS Tariff"
+      ],
+      "dialogId": "new_topic_9c31d4fb3f294c5c816531a84fb7849b",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_9c31d4fb3f294c5c816531a84fb7849b",
+      "displayName": "PRESTIGE BANKING ACCOUNTS tariff information",
+      "createdTime": "2022-08-31T19:23:50.7425338Z",
+      "updatedTime": "2022-11-28T12:53:42.6040658Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "877baeaf-0b52-4565-ad30-cea0bd2adbbd"
+    }
+  ],
+  "namedEntities": [
+    {
+      "id": "4c55fa09-9d53-4c5a-8b7d-263f6ac64aa3",
+      "displayName": "Premier Account"
+    },
+    {
+      "id": "cfa5b71e-928f-46bd-9d91-c862c45553b5",
+      "displayName": "Premium Current Account"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "84cf77bd-6201-41df-8145-d40a98c696da",
+      "messageNodes": [
+        {
+          "botMessageId": "819ee87f-6d04-4e86-9233-6aa217704d5c",
+          "nodeType": "BotMessageNode",
+          "id": "e5cd95df-cb7e-4dc3-a455-19c1f5e96c3e"
+        },
+        {
+          "botMessageId": "e0d27351-ebc8-4382-a036-721437921545",
+          "nodeType": "BotMessageNode",
+          "id": "c2a42793-e2aa-4d35-bd7d-768f0442602a"
+        }
+      ],
+      "questionNodes": [
+        {
+          "contextVariableId": "6d446381-3024-4e53-8769-42a4b47bd1ad",
+          "nodeType": "QuestionNode",
+          "id": "84cf77bd-6201-41df-8145-d40a98c696da",
+          "routes": [
+            {
+              "expression": "@equals(parameters('6d446381-3024-4e53-8769-42a4b47bd1ad'), '4c55fa09-9d53-4c5a-8b7d-263f6ac64aa3')",
+              "targetNodeId": "e5cd95df-cb7e-4dc3-a455-19c1f5e96c3e"
+            },
+            {
+              "expression": "@equals(parameters('6d446381-3024-4e53-8769-42a4b47bd1ad'), 'cfa5b71e-928f-46bd-9d91-c862c45553b5')",
+              "targetNodeId": "c2a42793-e2aa-4d35-bd7d-768f0442602a"
+            }
+          ],
+          "defaultTargetNodeId": "84cf77bd-6201-41df-8145-d40a98c696da"
+        }
+      ],
+      "id": "new_topic_9c31d4fb3f294c5c816531a84fb7849b",
+      "displayName": "Untitled",
+      "createdTime": "2022-08-31T19:23:50.7425338Z",
+      "updatedTime": "2022-08-31T19:25:13.0270213Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "TRANSACTIONAL ACCOUNTS tariff information"
+        }
+      },
+      "id": "d333a6ea-0a82-4382-8cee-b3c2c08e1f3c",
+      "createdTime": "2022-08-31T19:20:17.058Z",
+      "updatedTime": "2022-08-31T19:20:17.058Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** GH¢100\n\n**Minimum Operating Balance:** None\n\n\\*\\*Bundled Account Service Fee (monthly):\\*\\* GH¢35"
+        }
+      },
+      "id": "819ee87f-6d04-4e86-9233-6aa217704d5c",
+      "createdTime": "2022-08-31T19:21:27.425Z",
+      "updatedTime": "2022-08-31T19:21:27.425Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    },
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**Minimum Opening Amount:** GH¢1,000.00\n\n**Minimum Operating Balance:** None  \n**Account Maintenance Fee (monthly):** GH¢50.00"
+        }
+      },
+      "id": "e0d27351-ebc8-4382-a036-721437921545",
+      "createdTime": "2022-08-31T19:22:20.262Z",
+      "updatedTime": "2022-08-31T19:22:20.262Z",
+      "createdUserId": "user-0",
+      "updatedUserId": "user-0"
+    }
+  ],
+  "contextVariables": [
+    {
+      "systemType": "String",
+      "initializerType": "UserQuestion",
+      "scope": "Dialog",
+      "greedySlotFillingEnabled": true,
+      "isInput": false,
+      "externalInitializationAllowed": false,
+      "namedEntityOptions": [
+        "4c55fa09-9d53-4c5a-8b7d-263f6ac64aa3",
+        "cfa5b71e-928f-46bd-9d91-c862c45553b5"
+      ],
+      "messages": {
+        "GetValue": [
+          "d333a6ea-0a82-4382-8cee-b3c2c08e1f3c"
+        ]
+      },
+      "isGlobal": false,
+      "id": "6d446381-3024-4e53-8769-42a4b47bd1ad",
+      "displayName": "Var",
+      "createdTime": "2022-08-31T19:23:50.7425338Z",
+      "updatedTime": "2022-08-31T19:25:13.0270213Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ]
+}

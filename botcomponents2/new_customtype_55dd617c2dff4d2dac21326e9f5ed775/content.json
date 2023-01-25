@@ -1,0 +1,57 @@
+{
+  "namedEntities": [
+    {
+      "synonyms": [
+        "Standard Current"
+      ],
+      "id": "ad1543b9-ac19-4904-9b15-4eef039f832b",
+      "displayName": "Standard Current Account",
+      "createdTime": "2022-08-31T19:55:09.1626897Z",
+      "updatedTime": "2022-08-31T19:55:09.1626897Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "synonyms": [
+        "Paycheck+",
+        "Paycheck +",
+        "Paycheck Plus"
+      ],
+      "id": "208d48b9-864d-4297-82f1-dc42a280b143",
+      "displayName": "Paycheck Plus Account",
+      "createdTime": "2022-08-31T19:55:09.1626897Z",
+      "updatedTime": "2022-08-31T19:55:09.1626897Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "synonyms": [
+        "EDWAPA"
+      ],
+      "id": "800c48b2-8703-40e8-93fd-456d088c4bec",
+      "displayName": "EDWAPA ACCOUNT",
+      "createdTime": "2022-08-31T19:55:09.1626897Z",
+      "updatedTime": "2022-08-31T19:55:09.1626897Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ],
+  "closedListTypes": [
+    {
+      "namedEntities": [
+        "ad1543b9-ac19-4904-9b15-4eef039f832b",
+        "208d48b9-864d-4297-82f1-dc42a280b143",
+        "800c48b2-8703-40e8-93fd-456d088c4bec"
+      ],
+      "smartMatchingEnabled": true,
+      "customTypeSchema": "ClosedList",
+      "id": "new_customtype_55dd617c2dff4d2dac21326e9f5ed775",
+      "displayName": "Types of Current accounts",
+      "description": "",
+      "createdTime": "2022-08-31T19:55:09.1626897Z",
+      "updatedTime": "2022-08-31T19:55:09.1626897Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ]
+}

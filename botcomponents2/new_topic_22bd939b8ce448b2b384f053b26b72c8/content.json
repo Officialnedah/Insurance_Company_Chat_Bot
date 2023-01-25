@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "I cannot remember my credit card pin"
+      ],
+      "dialogId": "new_topic_22bd939b8ce448b2b384f053b26b72c8",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_22bd939b8ce448b2b384f053b26b72c8",
+      "displayName": "I cannot remember my credit card pin",
+      "description": "https://www.fidelitybank.ng/contact-us/frequently-asked-questions/",
+      "createdTime": "2022-08-31T12:23:27.6800113Z",
+      "updatedTime": "2022-11-28T12:32:54.19867Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "fa737967-092b-4c26-90d6-a895c91ba6eb",
+      "messageNodes": [
+        {
+          "botMessageId": "3edb5ae8-e75e-429e-9bfe-57b8cefcf340",
+          "nodeType": "BotMessageNode",
+          "id": "fa737967-092b-4c26-90d6-a895c91ba6eb",
+          "defaultTargetNodeId": "90f471cd-6551-4e75-b74c-9a2e43bf2914"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "90f471cd-6551-4e75-b74c-9a2e43bf2914"
+        }
+      ],
+      "id": "new_topic_22bd939b8ce448b2b384f053b26b72c8",
+      "displayName": "I cannot remember my credit card pin",
+      "createdTime": "2022-08-31T12:23:14.834495Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "Step 1: Request for a new PIN in any of the Fidelity closest Branch\r\n\r\nStep 2: You’ll receive SMS alert with 24 hours, Slot your card into Any Fidelity bank ATM and select any random 4 digits Number and press enter.\r\n\r\nStep 3: Select “change PIN” to enter your preferred 4 digits PIN.\r\n\r\nStep 4: Re-enter the PIN the second time and submit."
+        }
+      },
+      "id": "3edb5ae8-e75e-429e-9bfe-57b8cefcf340"
+    }
+  ]
+}

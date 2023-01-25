@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "How do I resolve unsuccessful deductions?"
+      ],
+      "dialogId": "new_topic_6a6b30667efd4daaafa8641b6c4753cf",
+      "isTriggeringEnabled": true,
+      "id": "new_topic_6a6b30667efd4daaafa8641b6c4753cf",
+      "displayName": "How do I resolve unsuccessful deductions?",
+      "description": "https://myenterprisegroup.io/ng/faqs/",
+      "createdTime": "2022-11-28T12:27:49.8394757Z",
+      "updatedTime": "2022-11-28T12:29:48.7439695Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d",
+      "updatedUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "2992850e-12b4-4402-9feb-34cab708ad14",
+      "messageNodes": [
+        {
+          "botMessageId": "0853acfc-ed67-4caf-ae42-8777a4392767",
+          "nodeType": "BotMessageNode",
+          "id": "2992850e-12b4-4402-9feb-34cab708ad14",
+          "defaultTargetNodeId": "a2c6df67-828e-46da-b66e-1f2030283525"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "a2c6df67-828e-46da-b66e-1f2030283525"
+        }
+      ],
+      "id": "new_topic_6a6b30667efd4daaafa8641b6c4753cf",
+      "displayName": "How do I resolve unsuccessful deductions?",
+      "createdTime": "2022-11-28T12:26:35.1678534Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "- Client must complete and sign EL request and mandate forms\r\n- Officer must advise customer to pay via online transfer."
+        }
+      },
+      "id": "0853acfc-ed67-4caf-ae42-8777a4392767"
+    }
+  ]
+}

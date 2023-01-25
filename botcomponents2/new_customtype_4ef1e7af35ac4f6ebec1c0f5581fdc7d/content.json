@@ -1,0 +1,37 @@
+{
+  "namedEntities": [
+    {
+      "id": "5bc56183-66ee-4750-916e-71987c5e3d64",
+      "displayName": "CURRENT ACCOUNTS",
+      "createdTime": "2022-08-31T19:53:13.9346919Z",
+      "updatedTime": "2022-08-31T19:53:13.9346919Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    },
+    {
+      "id": "b89ec42e-8a62-4950-8a9d-7b8fc7aef0e2",
+      "displayName": "SAVINGS ACCOUNTS",
+      "createdTime": "2022-08-31T19:53:13.9346919Z",
+      "updatedTime": "2022-08-31T19:53:13.9346919Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ],
+  "closedListTypes": [
+    {
+      "namedEntities": [
+        "5bc56183-66ee-4750-916e-71987c5e3d64",
+        "b89ec42e-8a62-4950-8a9d-7b8fc7aef0e2"
+      ],
+      "smartMatchingEnabled": true,
+      "customTypeSchema": "ClosedList",
+      "id": "new_customtype_4ef1e7af35ac4f6ebec1c0f5581fdc7d",
+      "displayName": "Types of Personal Account",
+      "description": "",
+      "createdTime": "2022-08-31T19:53:13.9346919Z",
+      "updatedTime": "2022-08-31T19:53:13.9346919Z",
+      "createdUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e",
+      "updatedUserId": "91b44fa3-caa0-4369-86b6-3c664ffe7b7e"
+    }
+  ]
+}

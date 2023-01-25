@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "triggerQueries": [
+        "11. What types of accounts that I can present e-Cheque through the internet banking? - Bill of Exchange - Personal Internet Banking"
+      ],
+      "dialogId": "new_topic_28a8380a414c4403a7716fcb17cda575",
+      "isTriggeringEnabled": false,
+      "id": "new_topic_28a8380a414c4403a7716fcb17cda575",
+      "displayName": "11. What types of accounts that I can present e-Cheque through the internet banking? - Bill of Exchange - Personal Internet Banking",
+      "description": "https://v.icbc.com.cn/userfiles/Resources/ICBC/haiwai/Asia/download/EN/2020/faq_handbook_en.pdf",
+      "createdTime": "2022-08-31T13:01:05.3070065Z",
+      "updatedTime": "2022-08-31T13:01:05.3070065Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "dialogs": [
+    {
+      "rootNodeId": "b64acbda-87ad-49b9-ab37-00aaa06a8ed0",
+      "messageNodes": [
+        {
+          "botMessageId": "9de82bca-2fa1-4a44-819d-a6e39de61366",
+          "nodeType": "BotMessageNode",
+          "id": "b64acbda-87ad-49b9-ab37-00aaa06a8ed0",
+          "defaultTargetNodeId": "70f9104f-e991-4647-9e2e-857efa047758"
+        }
+      ],
+      "dialogChangeNodes": [
+        {
+          "targetDialogId": "new_topic_438988484c0346169d3ab01e95981496_aeabea4d071f415c8c107e1cb7af5424_assumedsuccess",
+          "nodeType": "DialogChangeNode",
+          "id": "70f9104f-e991-4647-9e2e-857efa047758"
+        }
+      ],
+      "id": "new_topic_28a8380a414c4403a7716fcb17cda575",
+      "displayName": "11. What types of accounts that I can present e-Cheque through the internet banking? - Bill of Exchange - Personal Internet Banking",
+      "createdTime": "2022-08-31T13:00:38.9938216Z",
+      "createdUserId": "2da2371b-9fec-4f10-bf18-09837c9e8a3d"
+    }
+  ],
+  "botMessages": [
+    {
+      "channelContent": {
+        "web": {
+          "contentFormat": "Markdown",
+          "content": "**11. What types of accounts that I can present e-Cheque through the internet banking?**\r\n  \r\n\r\nAns:If you have opened accounts that corresponding to the e-Cheque same currency which have been linked into our internet banking, you can then make the presentment. The account category includes only current account and savings accounts, current and savings subaccount of Consolidated Account (Not including fixed deposit accounts, investment accounts and credit card accounts)."
+        }
+      },
+      "id": "9de82bca-2fa1-4a44-819d-a6e39de61366"
+    }
+  ]
+}
